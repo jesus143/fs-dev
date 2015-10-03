@@ -1,0 +1,38 @@
+
+body { /*font-family: 'arial'; */ border: 0px; padding: 0px; margin: 0px; }
+
+#sya_container { margin: auto;  position: relative; /*margin-top: 100px;*/ /*margin: auto;*/ border: 2px solid #ccc; height: auto; width: 981px;   padding:20px; background-color: #ccc; }
+	#sya_headtext { font-size: 15px; font-weight: bold; }
+	#sya_container input[type='text'] {  width: 70%; height: 30px; font-size: 20px; font-family: 'arial' ; border: none; padding-left: 20px; padding-right: 20px; }
+	#sya_container input[type='submit'] {  width: 100px; }
+	#sya_container input[type='button'] {  width: 100px; }
+	#img_table { width: 100%; }
+	#img_table td { border: 1px solid #000; }
+	#img_div img {  /*border: 1px solid #000;*/ cursor: pointer; /*margin: auto;*/ }
+#pa_selected_article_dc { border: 2px solid #000; margin: auto; margin-top: 30px; padding: 20px; height: 300px;  width: 700px; }
+	#left_content { position: relative; float: right; margin-top: -215px; width: 450px; }
+		#article_title_desc  { font-size: 20px; font-weight: bold; font-family: 'arial' }
+		#article_title { width: 99.9%; height: 20px; }
+		#article_desc { width: 99.9%;  height: 100px; resize:none; }
+	#footer_selected_article { width: 100%; padding-top: 20px; }
+	 	#article_category { width: 100%; }
+	 	#article_tag { width: 98.9%; }
+	 	#title1 { font-weight: bold; font-size: 20px;  }
+		#article_post { position: relative; margin-top: 10px; padding: 10px 40px 10px 40px; background-color: #000; border: none; color: #fff; font-weight: bold; font-size: 20px; cursor: pointer; }
+#article_res li { list-style: none  }
+
+
+
+
+#article_result_div1 {  position: relative; margin-top: 200px;  border: 1px solid #000;  width: 93%; background-color: #fff; margin-left: 40px; padding-bottom: 20px; }
+
+	#acticle_res_img1  { position: relative;  width: 200px;  border: 1px solid #000;  }
+	#acticle_res_img2  { position: absolute;  width: 200px;  border: 1px solid #000; margin-left: 250px; margin-top: -36px; }
+	#acticle_res_img3  { position: relative;  width: 200px;  border: 1px solid #000; margin-left: 250px; margin-top: -36px;   }
+	
+
+#article_result_div2 { } 
+
+ 
+
+

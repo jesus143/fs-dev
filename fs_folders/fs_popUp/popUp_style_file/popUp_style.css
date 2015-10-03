@@ -1,0 +1,23 @@
+ 
+ body { padding: 0px; margin: 0px;   }
+ /*
+::-webkit-scrollbar { 
+    display: none;  
+}*/
+ #popUp-container { position: absolute; display: block;  width: 100%; height: 100%; padding: 0px; margin: 0px; z-index: 500; }
+ #info-popUp_background { position: absolute; cursor: pointer; height: 100% ; border: 1px solid #000;  background-color: #000;opacity: 1px; color: #fff; width: 100%; opacity: 0.5; z-index: 501; }
+ #popUp_container { position: relative; /* border: 2px solid #fff; */cursor: pointer;z-index: 502; /*background-color: #fff;*/ width: 40%;    }
+ 	
+ 	#popUp_table1 { width: 100%; /*background-color: #fff;*/ color: #c51d20; cursor: default; color: #fff; /*margin-top: 200px; */  }
+ 		#popUp-padding-top { padding-top: 20%; background-color:none; cursor: pointer;   }
+ 		#popUp_header { height: 10px; background-color: #1a386a; border-radius: 5px 5px  0px 0px; padding: 20px 20px 0px 20px; }
+		#popUp_body { height: 10px; background-color: #1a386a;  padding-left: 20px; padding-right: 20px; border-radius: 0px 0px 5px 5px; }
+			#popUp-loading img { position:absolute; height: 12px;  }   
+		#popUp_footer { height: 10px;  background-color: #1a386a; border-radius: 0px 0px 5px 5px; padding: 0px  20px   20px 20px  ;    }
+			#popUp_footer table { float: right; }  
+				#b1 { /*background-color: red;*/ }
+				#b2 { /*background-color: blue;*/ }  
+#original_content { color: #000;  }
+ 
+
+    

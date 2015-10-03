@@ -1,0 +1,520 @@
+
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Flati Social Share Plugin in jQuery</title>
+	<meta name="generator" content="Inspirin Theme By FameThemes" />
+		<link rel="pingback" href="http://voidtricks.com/xmlrpc.php" />
+	<link rel="apple-touch-icon" href="http://voidtricks.com/wp-content/themes/inspirin/images/apple-touch-icon.png" />
+	
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.5.2.5 - http://yoast.com/wordpress/seo/ -->
+<meta name="description" content="Flati is a social share plugin written in jQuery. Fresh social media script with flat UI. You can download the free version and buy premium version."/>
+<link rel="canonical" href="http://voidtricks.com/flati-social-share-plugin-jquery/" />
+<link rel="author" href="https://plus.google.com/+anandroshan/?rel=author"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Flati Social Share Plugin in jQuery" />
+<meta property="og:description" content="Flati is a social share plugin written in jQuery. Fresh social media script with flat UI. You can download the free version and buy premium version." />
+<meta property="og:url" content="http://voidtricks.com/flati-social-share-plugin-jquery/" />
+<meta property="article:author" content="https://facebook.com/anand.roshan" />
+<meta property="article:tag" content="js" />
+<meta property="article:tag" content="media" />
+<meta property="article:tag" content="plugin" />
+<meta property="article:tag" content="share" />
+<meta property="article:tag" content="social" />
+<meta property="article:section" content="plugins" />
+<meta property="article:published_time" content="2014-03-02T06:46:30+00:00" />
+<meta property="article:modified_time" content="2014-03-25T09:35:16+00:00" />
+<meta property="og:updated_time" content="2014-03-25T09:35:16+00:00" />
+<meta property="og:image" content="http://voidtricks.com/wp-content/uploads/2014/03/flati-social-share-jquery-plugin.jpg" />
+<meta property="og:image" content="http://voidtricks.com/exfiles/vt-demo.png" />
+<meta property="og:image" content="http://voidtricks.com/exfiles/vt-download.png" />
+<meta property="og:image" content="http://voidtricks.com/wp-content/uploads/2014/03/flati-screenshot5-620x372.jpg" />
+<meta property="og:image" content="http://voidtricks.com/wp-content/uploads/2014/03/flati-positions1-620x244.jpg" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="http://voidtricks.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="http://voidtricks.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Flati Social Share Plugin in jQuery Comments Feed" href="http://voidtricks.com/flati-social-share-plugin-jquery/feed/" />
+<link rel='stylesheet' id='validate-engine-css-css'  href='http://voidtricks.com/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css?ver=2.6.13' type='text/css' media='all' />
+<link rel='stylesheet' id='math-captcha-front-css'  href='http://voidtricks.com/wp-content/plugins/wp-math-captcha/css/front.css?ver=3.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='default-style-css'  href='http://voidtricks.com/wp-content/themes/inspirin/style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Bitter:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-style-css'  href='http://voidtricks.com/wp-content/themes/inspirin/css/font-awesome.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='typography-style-css'  href='http://voidtricks.com/wp-content/themes/inspirin/css/typography.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://voidtricks.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='better-author-bio-div-css'  href='http://voidtricks.com/wp-content/plugins/better-author-bio/better-author-bio-div.css?ver=3.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='core3.0-css'  href='http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='core-Midnight3.0-css'  href='http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/styles/shCoreMidnight.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-Midnight3.0-css'  href='http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/styles/shThemeMidnight.css?ver=3.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://voidtricks.com/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://voidtricks.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://voidtricks.com/wp-content/themes/inspirin/js/custom.js?ver=1.0.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://voidtricks.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://voidtricks.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.9.3" />
+<link rel='shortlink' href='http://voidtricks.com/?p=89' />
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){if(a2a.type=='page'){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();}},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}wpa2a.done=true;}wpa2a.targets=[];}};a2a_config.tracking_callback=['ready',wpa2a.script_onready];
+//--></script>
+<style type="text/css">
+	a, a:hover, .ft-rdtitle i { color: #F34C3D}
+	#sidebar-left .widget ul li a, input[type="button"], input[type="submit"], #post-nav .pagination span, #post-nav .pagination a, .ft-rdposts, .ft-ftmenu, .ft-ptags a, a:hover.comment-reply-link { background:#F34C3D; }
+	.hentry a.more-link { background-color:#F34C3D; }
+	.widget_calendar table#wp-calendar thead > tr > th { background:#F34C3D; }
+	.widget_calendar th { border-right: 1px solid #F34C3D; }
+	.widget_calendar table > thead { border: 1px solid #F34C3D; }
+	.widget_calendar table > thead > tr { border-bottom: 1px solid #F34C3D; }
+</style>
+
+<link href='http://fonts.googleapis.com/css?family=Bitter:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;subset=latin,greek-ext,cyrillic,latin-ext,greek,cyrillic-ext,vietnamese' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Bitter:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;subset=latin,greek-ext,cyrillic,latin-ext,greek,cyrillic-ext,vietnamese' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Bitter:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;subset=latin,greek-ext,cyrillic,latin-ext,greek,cyrillic-ext,vietnamese' rel='stylesheet' type='text/css' />
+<style type="text/css">
+	h1,h2,h3,h4,h5,h6,.ct-logo{font-family:'Bitter'!important;font-weight:700!important;}
+	.ft-menu,.ft-ftmenu{font-family:'Bitter'!important;font-weight:700!important;}
+	.ft-rdposts{font-family:'Bitter'!important;font-weight:700!important;}
+</style>
+	
+</head>
+
+<body class="single single-post postid-89 single-format-standard chrome">
+
+<header id="header">
+	<div class="wrapper clearfix">
+		<div class="ft-lheader">
+			<a class="ft-jpbutton" href="#menu"><i class="icon-reorder"></i></a>	
+			<div class="ft-logo">
+								<div class="ct-logo"><a href="http://voidtricks.com/" title=""><img src="http://voidtricks.com/wp-content/uploads/2013/09/voidtricks-logo.png" width="" height="" alt="" /></a></div>
+						
+			</div>
+		</div>
+		<div class="ft-rheader">
+			<div class="ft-menu">
+								<ul class="primenu"><li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-32"><a href="http://voidtricks.com/">Home</a></li>
+<li id="menu-item-118" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-118"><a href="http://voidtricks.com/category/tutorials/">Tutorials</a></li>
+<li id="menu-item-115" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-115"><a href="http://voidtricks.com/category/tips/">Tips</a></li>
+<li id="menu-item-119" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-119"><a href="http://voidtricks.com/category/plugins/">Plugins</a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-137"><a href="http://voidtricks.com/category/google/">google</a></li>
+<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="http://voidtricks.com/post-request/">Post Request</a></li>
+</ul>							</div>
+			<div class="ft-icons">
+				<ul>
+					<li class="ft-rss"><a target="_blank" href="http://feeds.feedburner.com/voidTricks"><i class="icon-rss"></i></a></li>					<li class="ft-twitter"><a target="_blank" href="http://twitter.com/voidTricks"><i class="icon-twitter"></i></a></li>					<li class="ft-facebook"><a target="_blank" href="https://facebook.com/voidTricks"><i class="icon-facebook"></i></a></li>					<li class="ft-google"><a target="_blank" href="https://plus.google.com/+VoidTricks"><i class="icon-google-plus"></i></a></li>					<li><a class="search-bt" href="#"><i class="icon-search"></i></a></li>
+				</ul>
+				<div class="ft-search-hide"><form role="search" method="get" id="searchform" action="http://voidtricks.com/">
+	<h3>Search on </h3>
+	<input type="text" id="s" name="s" value="Type keyword and hit enter..." onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" />
+	<input type="submit" id="searchsubmit" value="" />
+</form>
+<div class="ft-shbg"></div></div>
+			</div>
+		</div>
+	</div>			
+</header>
+
+<div class="container">
+<main id="main">
+<div class="wrapper clearfix">
+	<div class="content-wrapper">
+		<div class="content-grid">
+			<aside id="sidebar-left">
+	<div id="categories-2" class="row widget widget_categories"><div class="widget-section"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-41"><a href="http://voidtricks.com/category/tutorials/ajax/" title="View all posts filed under ajax">ajax</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://voidtricks.com/category/tutorials/css/" title="View all posts filed under css">css</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://voidtricks.com/category/google/" title="View all posts filed under google">google</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://voidtricks.com/category/tutorials/jquery-tutorials/" title="View all posts filed under jQuery">jQuery</a>
+</li>
+	<li class="cat-item cat-item-52"><a href="http://voidtricks.com/category/tutorials/mysql/" title="View all posts filed under mysql">mysql</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://voidtricks.com/category/php/" title="View all posts filed under PHP">PHP</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="http://voidtricks.com/category/plugins/" title="View all posts filed under plugins">plugins</a>
+</li>
+	<li class="cat-item cat-item-48"><a href="http://voidtricks.com/category/scripts/" title="View all posts filed under scripts">scripts</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://voidtricks.com/category/seo/" title="View all posts filed under seo">seo</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="http://voidtricks.com/category/tips/" title="View all posts filed under tips">tips</a>
+</li>
+	<li class="cat-item cat-item-29"><a href="http://voidtricks.com/category/tutorials/" title="View all posts filed under tutorials">tutorials</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://voidtricks.com/category/web-development/" title="View all posts filed under web development">web development</a>
+</li>
+		</ul>
+</div></div></aside>			<div id="content" role="main">
+				<div class="post-box">
+					
+<article id="post-89" class="post-89 post type-post status-publish format-standard has-post-thumbnail hentry category-plugins tag-js tag-media tag-plugin tag-share tag-social single">
+	<div class="ft-bpost">
+		<header><h1 class="ft-ptitle entry-title">Flati Social Share Plugin in jQuery</h1></header>
+		<div class="ft-bmeta"><span class="ft-author vcard author"><span class="fn"><a href="http://voidtricks.com/author/arosh/" title="Posts by ARosh" rel="author">ARosh</a></span></span> - <span class="ft-time"><time class="updated" datetime="March, 2nd 2014">March 2, 2014</time></span> - <span class="ft-categories"><a href="http://voidtricks.com/category/plugins/" title="View all posts in plugins" rel="category tag">plugins</a></span></div>
+		
+		<div class="ft-boxct">
+			<section class="ft-entry"><div class="addtoany_share_save_container addtoany_content_top"><div class="a2a_kit a2a_kit_size_32 a2a_target addtoany_list" id="wpa2a_1"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_pinterest" href="http://www.addtoany.com/add_to/pinterest?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Pinterest" rel="nofollow" target="_blank"></a><a class="a2a_button_tumblr" href="http://www.addtoany.com/add_to/tumblr?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Tumblr" rel="nofollow" target="_blank"></a><a class="a2a_button_stumbleupon" href="http://www.addtoany.com/add_to/stumbleupon?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="StumbleUpon" rel="nofollow" target="_blank"></a><a class="a2a_button_reddit" href="http://www.addtoany.com/add_to/reddit?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Reddit" rel="nofollow" target="_blank"></a><a class="a2a_button_pocket" href="http://www.addtoany.com/add_to/pocket?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Pocket" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"></a>
+<script type="text/javascript"><!--
+wpa2a.script_load();
+//--></script>
+</div></div><h2>Flati Social Share Plugin Introduction :</h2>
+<p>Flati is a social share plugin written with <a href="http://code.jquery.com" title="jquery library" target="_blank">jQuery library</a>.</p>
+<p>It is designed with flat UI. It is modern and trendy also.</p>
+<div class="vt-dnd">
+<div class="vt-demo"><a href="http://demo.voidtricks.com/flati-social-share-plugin"><img src="http://voidtricks.com/exfiles/vt-demo.png"><br /><span>Live Demo</span></a></div>
+<div class="vt-download"><a href="http://download.voidtricks.com/js/flati.zip" target="_BLANK" ><img src="http://voidtricks.com/exfiles/vt-download.png"><br /><span>Download Script</span></a></div>
+<div class="clb"></div>
+</div>
+<h3>Required Files</h3>
+<p>You need to include <strong>jQuery library</strong> and the <strong>flati minified js</strong> file inside of <strong>head</strong> tag like below :</p>
+<pre class="brush: html; gutter: false; first-line: 1; highlight: []; html-script: false">
+&lt;script src=&quot;http://code.jquery.com/jquery-1.11.0.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/flati-v1.0.min.js&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/flati.css&quot;&gt;
+</pre>
+<p>If you have these files in different path, make sure that you&#8217;ve put the path correctly.</p>
+<h3>Plugin Initialization</h3>
+<p>Plugin should be initialized with in the $(document).ready() function like below.</p>
+<pre class="brush: html; gutter: false; first-line: 1; highlight: []; html-script: false">
+&lt;script type=&quot;text/javascript&quot;&gt;
+//Initialization of the Plugin 
+$(document).ready(function () {
+	$(&quot;body&quot;).flati();
+});
+&lt;/script&gt;
+</pre>
+<p>That&#8217;s it! you&#8217;ve successfully integrated the <a href="http://voidtricks.com/flati-social-share-jquery-plugin/" title="Flati social share jquery plugin" target="_blank">plugin</a> with default values.</p>
+<p>Now go to your browser and open the index.html file</p>
+<p>You&#8217;ll see something like below.</p>
+<p><a href="http://voidtricks.com/wp-content/uploads/2014/03/flati-screenshot5.jpg"><img src="http://voidtricks.com/wp-content/uploads/2014/03/flati-screenshot5-620x372.jpg" alt="Flati social share jQuery plugin" width="620" height="372" class="alignnone size-medium wp-image-91 spli" /></a></p>
+<h3>Customization</h3>
+<p>You can customize this flati social share jquery plugin by sending options to override the default <strong>options</strong>. Take a look at below : </p>
+<pre class="brush: javascript; gutter: false; first-line: 1; highlight: []; html-script: false">
+$(&quot;body&quot;).flati({
+		skin : &quot;ocean&quot;,
+		containerBg : &quot;#1e8bc3&quot;,
+		containerBorder : &quot;#6bb9f0&quot;,
+		iconBg : &quot;#6bb9f0&quot;,
+		iconHover : &quot;#003380&quot;,
+		triggerPosition: &quot;right&quot;
+});
+</pre>
+<p><a href="http://voidtricks.com/wp-content/uploads/2014/03/flati-positions1.jpg"><img src="http://voidtricks.com/wp-content/uploads/2014/03/flati-positions1-620x244.jpg" alt="flati-positions" width="620" height="244" class="alignnone size-medium wp-image-105" /></a></p>
+<ul>
+<li>skin : name of the skin (see inside of the folder called &#8220;skins&#8221;).</li>
+<li>1) containerBg : Background color or image of the top container.</li>
+<li>2) containerBorder : Border color of the top container.</li>
+<li>3) iconBg : Color of the border around the social icons.</li>
+<li>4) iconHover : Color of icon border when hovering on it.</li>
+<li>5) hoverEffect : Effect when you hover the icons.</li>
+<li>6) triggerPosition : Left or Right</li>
+</ul>
+<p>When you download the plugin, there will be three skins in the skins folder which are rasgulla, ocean and summer.</p>
+<p>See the Skin_Change_Guide.txt file for the initialization reference.</p>
+<p>Skins will be developed and updated in future, so you can download it and put it into skins folder and change the initialization according to the skin settings.</p>
+<p>But you can specify your own colors.</p>
+<p>This is it. Enjoy the plugin and make sure to subscribe with us to get notified about the future versions and skins.</p>
+<div class="vt-dnd">
+<div class="vt-demo"><a href="http://demo.voidtricks.com/flati-social-share-plugin"><img src="http://voidtricks.com/exfiles/vt-demo.png"><br /><span>Live Demo</span></a></div>
+<div class="vt-download"><a href="http://download.voidtricks.com/js/flati.zip" target="_BLANK" ><img src="http://voidtricks.com/exfiles/vt-download.png"><br /><span>Download Script</span></a></div>
+<div class="clb"></div>
+</div>
+			<div id="better-author-bio-div">
+				<div class="better-author-bio-div-info">
+				        					<img src="http://voidtricks.com/wp-content/uploads/2014/03/374311_1738665083082_1390237871_n.jpg" width="41" height="60" alt="" class="avatar avatar-60 wp-user-avatar wp-user-avatar-60 photo avatar-default" />										<h4>About ARosh</h4>
+					
+										<p class="better-author-bio-div-text">Anand Roshan has written 18 post in this blog.</p>
+															<p class="better-author-bio-div-meta">An entrepreneur who likes to do the things which cannot be easily done by others.</p>
+										<ul>
+						<li class="first"><a href="http://voidtricks.com/author/arosh/">
+									View all posts by ARosh <span class="meta-nav">&rarr;</span>								</a></li>
+						<li><a href="http://voidtricks.com" title="Read ARosh&#8217;s blog">Blog</a></li>
+												<li><a href="https://twitter.com/anand_roshan" title="Follow ARosh on Twitter" rel="external">Twitter</a></li>
+																		<li><a href="https://facebook.com/anand.roshan" title="Be ARosh&#8217;s friend on Facebook" rel="external">Facebook</a></li>                        <li><a href="https://plus.google.com/+anandroshan/?rel=author" rel="me" title="Add ARosh in your circle" rel="external">Google+</a></li>
+						                        					</ul>
+				</div>
+			</div>
+			<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 a2a_target addtoany_list" id="wpa2a_2"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_pinterest" href="http://www.addtoany.com/add_to/pinterest?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Pinterest" rel="nofollow" target="_blank"></a><a class="a2a_button_tumblr" href="http://www.addtoany.com/add_to/tumblr?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Tumblr" rel="nofollow" target="_blank"></a><a class="a2a_button_stumbleupon" href="http://www.addtoany.com/add_to/stumbleupon?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="StumbleUpon" rel="nofollow" target="_blank"></a><a class="a2a_button_reddit" href="http://www.addtoany.com/add_to/reddit?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Reddit" rel="nofollow" target="_blank"></a><a class="a2a_button_pocket" href="http://www.addtoany.com/add_to/pocket?linkurl=http%3A%2F%2Fvoidtricks.com%2Fflati-social-share-plugin-jquery%2F&amp;linkname=Flati%20Social%20Share%20Plugin%20in%20jQuery" title="Pocket" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"></a></div></div></section>
+					</div>
+		<div class="ft-ptags"><strong>Post Tags:</strong><a href="http://voidtricks.com/tag/js/" rel="tag">js</a><a href="http://voidtricks.com/tag/media/" rel="tag">media</a><a href="http://voidtricks.com/tag/plugin/" rel="tag">plugin</a><a href="http://voidtricks.com/tag/share/" rel="tag">share</a><a href="http://voidtricks.com/tag/social/" rel="tag">social</a></div>
+		
+
+<div class="ft-optin">
+
+	<h5>Subscribe</h5>
+	<p>Get updated with latest programming updates, tutorials and free ebooks.</p>
+	<!--START Scripts : this is the script part you can add to the header of your theme-->
+<script type="text/javascript" src="http://voidtricks.com/wp-includes/js/jquery/jquery.js?ver=2.6.13"></script>
+<script type="text/javascript" src="http://voidtricks.com/wp-content/plugins/wysija-newsletters/js/validate/languages/jquery.validationEngine-en.js?ver=2.6.13"></script>
+<script type="text/javascript" src="http://voidtricks.com/wp-content/plugins/wysija-newsletters/js/validate/jquery.validationEngine.js?ver=2.6.13"></script>
+<script type="text/javascript" src="http://voidtricks.com/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.6.13"></script>
+<script type="text/javascript">
+                /* <![CDATA[ */
+                var wysijaAJAX = {"action":"wysija_ajax","controller":"subscribers","ajaxurl":"http://voidtricks.com/wp-admin/admin-ajax.php","loadingTrans":"Loading..."};
+                /* ]]> */
+                </script><script type="text/javascript" src="http://voidtricks.com/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.6.13"></script>
+<!--END Scripts-->
+
+<div class="widget_wysija_cont html_wysija"><div id="msg-form-wysija-html54643fcc87877-1" class="wysija-msg ajax"></div><form id="form-wysija-html54643fcc87877-1" method="post" action="#wysija" class="widget_wysija html_wysija"><input type="hidden" value="ef5a94f17f" id="wysijax" />
+<p class="wysija-paragraph">
+    <label>Email <span class="wysija-required">*</span></label>
+    
+    	<input type="text" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" title="Email"  value="" />
+    
+    
+    
+    <span class="abs-req">
+        <input type="text" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
+    </span>
+    
+</p>
+<input class="wysija-submit wysija-submit-field" type="submit" value="Subscribe!" />
+
+    <input type="hidden" name="form_id" value="1" />
+    <input type="hidden" name="action" value="save" />
+    <input type="hidden" name="controller" value="subscribers" />
+    <input type="hidden" value="1" name="wysija-page" />
+
+    
+        <input type="hidden" name="wysija[user_list][list_ids]" value="1" />
+    
+ </form></div>
+</div>
+
+		
+		
+<div class="ft-related">
+	<h3>Related Posts</h3>
+	<ul>
+				 
+		    	    	    		<li><article class="ft-rlpost">				
+				<div class="ft-fimg"><a href="http://voidtricks.com/wholly-jquery-plugin/" title="Highlight Table Rows and Columns with Wholly jQuery Plugin"><img width="430" height="162" src="http://voidtricks.com/wp-content/uploads/2014/05/wholly.gif" class="attachment-related wp-post-image" alt="wholly highlight table rows and columns" /></a></div>							
+				<h5 class="related-article"><a href="http://voidtricks.com/wholly-jquery-plugin/" title="Highlight Table Rows and Columns with Wholly jQuery Plugin">Highlight Table Rows and Columns with Wholly jQuery Plugin</a></h5>				
+			</article></li>
+    		</ul>
+</div>
+		<div class="ft-breadcrumbs hidden"><div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"> <span typeof="v:Breadcrumb"><a property="v:title" rel="v:url" href="http://voidtricks.com">Homepage</a></span> <span class="sep">&raquo;</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="http://voidtricks.com/category/plugins/" title="View all posts in plugins">plugins</a> </span> <span class="sep">&raquo;</span> <span typeof="v:Breadcrumb"><span property="v:title" class="current">Flati Social Share Plugin in jQuery</span></span></div></div>
+		<div class="ft-boxcm">
+<div id="disqus_thread">
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://voidtricks.com/flati-social-share-plugin-jquery/';
+    var disqus_identifier = '89 http://voidtricks.com/?p=89';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'voidtricks';
+    var disqus_title = "Flati Social Share Plugin in jQuery";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=89';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                this.page.remote_auth_s3 = 'W10= 6aa6e873607296cfdaafc23c7e0ceb646017c0fb 1416528658';
+this.page.api_key = '3LPp1DoUOrZ0tqFOczxavqnHMKRbNcPbDCcQsg8mXK319HEVzOc1AKDZQqY0feYo';
+this.sso = {
+          name: "",
+          button: "",
+          icon: "",
+          url: "http://voidtricks.com/wp-login.php",
+          logout: "http://voidtricks.com/wp-login.php?action=logout",
+          width: "800",
+          height: "700"
+    }    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/voidtricks.com\/flati-social-share-plugin-jquery\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+</div>
+		<div class="ft-pnav">
+			<span class="nav-previous"><a href="http://voidtricks.com/editable-div-submits-on-enter/" rel="prev">&larr; Previous Post</a></span>
+			<span class="nav-next"><a href="http://voidtricks.com/meta-name-robots-noarchive/" rel="next">Next Post &rarr;</a></span>
+		</div>
+	</div>
+</article>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<aside id="sidebar">
+	<div id="text-2" class="row widget widget_text"><div class="widget-section"><h3 class="widget-title">Like Us on Facebook</h3>			<div class="textwidget"><center>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FvoidTricks&amp;width=290&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=536079926468979" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:290px; height:258px;" allowTransparency="true"></iframe>
+</center>
+</div>
+		</div></div><div id="text-5" class="row widget widget_text"><div class="widget-section"><h3 class="widget-title">Follow on Twitter</h3>			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/voidTricks" data-widget-id="446405835824984064">Tweets by @voidTricks</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+		</div></div><div id="text-4" class="row widget widget_text"><div class="widget-section"><h3 class="widget-title">Follow on Google +</h3>			<div class="textwidget"><!-- Place this tag where you want the widget to render. -->
+<div class="g-page" data-width="290" data-href="https://plus.google.com/106171320632078840950" data-layout="landscape" data-rel="publisher"></div>
+
+<!-- Place this tag after the last widget tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script></div>
+		</div></div><div id="text-7" class="row widget widget_text"><div class="widget-section">			<div class="textwidget"><a href="http://www.alexa.com/siteinfo/www.voidtricks.com"><script type="text/javascript" src="http://xslt.alexa.com/site_stats/js/t/a?url=www.voidtricks.com"></script></a>
+<br>
+<br /></div>
+		</div></div></aside></div>
+</main>
+		
+<footer id="footer">
+	<div class="ft-rdposts clearfix">
+		<div class="wrapper clearfix">
+		<div class="ft-rdtitle">
+			<i class="icon-star-empty"></i>
+			<p>Top Article</p>
+			<span>Don't Miss</span>
+		</div>
+		<div class="ft-rdpost">
+						<p><a href="http://voidtricks.com/add-svr-record-txt-record-dns/" rel="bookmark" title="How to add SVR record using TXT record in DNS settings">How to add SVR record using TXT record in DNS settings</a></p>
+			<span>On <time class="updated meta-button" datetime="November 10, 2013" pubdate> November 10, 2013</time> With <a href="http://voidtricks.com/add-svr-record-txt-record-dns/#respond" title="Comment on How to add SVR record using TXT record in DNS settings"><span class="dsq-postid" rel="62 http://voidtricks.com/?p=62">0 Comments</span></a></span>
+			 
+		</div>
+		</div>
+	</div>
+	<div class="wrapper clearfix">
+		<div class="ft-widgets clearfix">
+					</div>
+	</div>
+	<div class="ft-ftmenu clearfix">
+		<div class="wrapper">
+						<p class="ft-ftnomenus">Please Setup Your Menus : Dashboard -> Appearance -> Menus</p>
+					</div>
+	</div>
+	<div class="ft-copyright clearfix">
+		<div class="wrapper">
+			<div class="ft-cptext"><a href="http://seyalon.com">Seyalon</a></div>
+			<div class="ft-cplogo">Powered by Wordpress. Designed by <a target="_blank" href="http://www.famethemes.com/"><img src="http://voidtricks.com/wp-content/themes/inspirin/images/copyright/famethemes.png" width="48" height="25" atl="FameThemes" /></a></div>
+		</div>
+	</div>
+</footer>
+
+</div>
+
+<aside class="ft-backtop">
+	<div class="back-top">
+		<a href="#top">
+			<span><i class="icon-arrow-up"></i></span>
+		</a>
+	</div>
+</aside>
+				
+
+<script type="text/javascript"><!--
+wpa2a.targets=[
+{title:'Flati Social Share Plugin in jQuery',url:'http://voidtricks.com/flati-social-share-plugin-jquery/'},
+{title:'Flati Social Share Plugin in jQuery',url:'http://voidtricks.com/flati-social-share-plugin-jquery/'}];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+
+<!-- WP SyntaxHighlighter Ver.1.7.3 Begin -->
+<script type="text/javascript" src="http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0"></script>
+<script type="text/javascript" src="http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shAutoloader.js?ver=3.0"></script>
+<script type="text/javascript" src="http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0"></script>
+<script type="text/javascript">//<![CDATA[
+	SyntaxHighlighter.autoloader(
+	"applescript	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushAppleScript.js?ver=3.0"
+	,"as3 actionscript3	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushAS3.js?ver=3.0"
+	,"bash shell	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushBash.js?ver=3.0"
+	,"cf coldfusion	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushColdFusion.js?ver=3.0"
+	,"cpp c	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushCpp.js?ver=3.0"
+	,"c# c-sharp csharp	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushCSharp.js?ver=3.0"
+	,"css	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushCss.js?ver=3.0"
+	,"delphi pas pascal	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushDelphi.js?ver=3.0"
+	,"diff patch	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushDiff.js?ver=3.0"
+	,"erl erlang	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushErlang.js?ver=3.0"
+	,"groovy	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushGroovy.js?ver=3.0"
+	,"java	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushJava.js?ver=3.0"
+	,"jfx javafx	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushJavaFX.js?ver=3.0"
+	,"js jscript javascript	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushJScript.js?ver=3.0"
+	,"perl pl	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPerl.js?ver=3.0"
+	,"php	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPhp.js?ver=3.0"
+	,"plain text	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPlain.js?ver=3.0"
+	,"ps powershell	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPowerShell.js?ver=3.0"
+	,"py python	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0"
+	,"rails ror ruby rb	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushRuby.js?ver=3.0"
+	,"sass scss	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushSass.js?ver=3.0"
+	,"scala	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushScala.js?ver=3.0"
+	,"sql	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushSql.js?ver=3.0"
+	,"vb vbnet	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushVb.js?ver=3.0"
+	,"xml xhtml xslt html	http://voidtricks.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0"
+	);
+	SyntaxHighlighter.defaults['auto-links'] = true;
+	SyntaxHighlighter.defaults['quick-code'] = true;
+	SyntaxHighlighter.defaults['title'] = '';
+	SyntaxHighlighter.defaults['class-name'] = 'notranslate';
+	SyntaxHighlighter.defaults['collapse'] = false;
+	SyntaxHighlighter.defaults['first-line'] = 1;
+	SyntaxHighlighter.defaults['gutter'] = false;
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['smart-tabs'] = true;
+	SyntaxHighlighter.defaults['tab-size'] = 4;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = "Can't find brush for: ";
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = "Brush wasn't configured for html-script option: ";
+	SyntaxHighlighter.all();
+	
+//]]></script>
+<!-- WP SyntaxHighlighter Ver.1.7.3 End -->
+<script type='text/javascript' src='http://voidtricks.com/wp-content/themes/inspirin/js/jpanelmenu.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://voidtricks.com/wp-content/themes/inspirin/js/fitvids.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://voidtricks.com/wp-includes/js/comment-reply.min.js?ver=3.9.3'></script>
+
+
+</body>
+</html>

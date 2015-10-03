@@ -1,0 +1,246 @@
+<style>
+
+#fs-footer-wrapper {
+    margin:0px auto;
+    text-align: center;
+    margin-left: -71px;
+    height: 235px;
+    background-color: rgb(34, 91, 153);
+}
+
+#fs-footer-white {
+    color:white !important;
+}
+
+#fs-footer-container {
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 40px;
+    margin-left: -40px;
+}
+
+#fs-footer-wrapper span {
+    color:rgb(174, 179, 189);
+    font-family: arial, sans-serif;
+    font-size: 12px;
+}
+
+#fs-footer-wrapper ul {
+    padding:0px;
+    margin:0px;
+}
+
+#fs-footer-wrapper ul li {
+    list-style: none;
+    /*border:1px solid red;*/
+    float:right;
+    width:24.7%;
+    background-color: #225b99;
+    color:white;
+    height: 160px;
+    padding-top:10px;
+}
+
+#fs-footer-wrapper ul li table {
+    margin: 0px auto;
+}
+
+#fs-footer-wrapper ul li table td {
+}
+
+#fs-footer-wrapper ul li:nth-child(1) {
+    width: 24%;
+
+    padding-left: 2%;
+}
+
+#fs-footer-wrapper ul li:nth-child(1) span {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+}
+
+#fs-footer-wrapper ul li:nth-child(1) div:nth-child(1) {
+    padding-top:8px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+
+#fs-footer-wrapper ul li:nth-child(1) div:nth-child(1) div {
+    padding-top:10px;
+}
+
+
+#fs-footer-wrapper ul li:nth-child(1) input , #fs-footer-wrapper ul li:nth-child(1) select{
+    width: 100%;
+    border:0px;
+    padding: 6px;
+    outline: none !important;
+}
+
+
+
+
+#fs-footer-wrapper ul li:nth-child(1) input:nth-child(1) , #fs-footer-wrapper ul li:nth-child(1) select {
+    border-bottom: 1px solid grey;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#fs-footer-wrapper ul li:nth-child(1)  input:nth-child(2) {
+
+}
+
+#fs-footer-wrapper ul li:nth-child(1)  input:nth-child(4) {
+    color:white;
+    /*background-color: #4BB438;*/
+    border-radius: 0px 0px 5px 5px;
+    background-image: url("http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/subscribe-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 101%
+
+}
+
+#fs-footer-wrapper ul li:nth-child(1)  input:nth-child(4):hover {
+    color:white;
+    /*background-color: #4BB438;*/
+    border-radius: 0px 0px 5px 5px;
+    background-image: url("http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/subscribe-mouse-over-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 101%
+}
+
+#fs-footer-wrapper ul li:nth-child(1)  input:nth-child(4):hover {
+    color:white;
+    background-color: #73D062;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#fs-footer-wrapper ul li:nth-child(2) {
+    border-right:1px solid white;
+    width: 15%;
+}
+
+#fs-footer-wrapper ul li:nth-child(2) table td {
+    padding:7px;
+}
+
+#fs-footer-wrapper ul li:nth-child(2) table td img {
+    width:10px;
+}
+
+#fs-footer-wrapper ul li:nth-child(3) {
+    border-right:1px solid white;
+    width: 28%;
+}
+
+#fs-footer-wrapper ul li:nth-child(3) table {
+}
+
+#fs-footer-wrapper ul li:nth-child(3) table td {
+    padding:8px;
+}
+
+#fs-footer-wrapper ul li:nth-child(4) {
+    border-right:1px solid white;
+    width: 19%;
+    padding-right: 20px;
+}
+
+#fs-footer-wrapper ul li:nth-child(4) table {
+    width: 100%;
+    text-align: left;
+    margin-top: 9px;
+}
+
+#fs-footer-wrapper ul li:nth-child(4) table td {
+}
+
+#fs-footer-wrapper ul li:nth-child(4) table td img{
+    margin-left:10px;
+    padding-bottom: 7px;
+}
+
+
+#fs-footer-wrapper ul li:nth-child(4) table span {
+}
+
+</style>
+
+
+<div id="fs-footer-wrapper">
+
+    <div id="fs-footer-container">
+        <ul>
+            <li>
+                <div>
+                    <span id="fs-footer-white" >SUBSCRIBE TO OUR NEWS LETTER</span>
+                    <div>
+                        <select>
+                            <option>Gender</option>
+                            <option>Male</option>
+                            <option>Fe-Male</option>
+                        </select>
+                        <input type="text" placeholder="E-mail" ><br>
+                        <input type="button" value="" id="fs-footer-subscribe">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/facebook.png"
+                                 id="footer-facebook-icon"
+                                 onmouseover="change_image_src('#footer-facebook-icon' , 'http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/facebook-mouse-over.png')"
+                                 onmouseout="change_image_src('#footer-facebook-icon' , 'http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/facebook.png')">
+                        </td>
+                        <td>
+                            <span>Facebook</span>
+                        </td>
+                    <tr>
+                        <td>
+                            <img src="http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/tumblr.png"
+                                 id="footer-tumblr-icon"
+                                 onmouseover="change_image_src('#footer-tumblr-icon' , 'http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/tumblr-mouse-over.png')"
+                                 onmouseout="change_image_src('#footer-tumblr-icon' , 'http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/tumblr.png')">
+                        <td>
+                            <span>Tumblr</span>
+                        </td>
+                    <tr>
+                        <td>
+                            <img src="http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/instagram.png"
+                                 id="footer-instagram-icon"
+                                 onmouseover="change_image_src('#footer-instagram-icon' , 'http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/instagram-mouse-over.png')"
+                                 onmouseout="change_image_src('#footer-instagram-icon' , 'http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/instagram.png')">
+                        <td>
+                            <span>Instagram</span>
+                        </td>
+                    <tr>
+                        <td>
+                            <img src="http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/pinterest.png"
+                                 id="footer-pinterest-icon"
+                                 onmouseover="change_image_src('#footer-pinterest-icon' , 'http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/pinterest-mouse-over.png')"
+                                 onmouseout="change_image_src('#footer-pinterest-icon' , 'http://localhost/fs/new_fs/alphatest/fs_folders/images/icons/footer/pinterest.png')">
+                        <td>
+                            <span>Pinterest</span>
+                        </td>
+                </table>
+            </li>
+            <li>
+                <table>
+                    <tr>
+                        <td> <span id="fs-footer-white" >FASHION</span></td>         <td> <span>About</span>            </td> <tr>
+                        <td> <span id="fs-footer-white" >BEAUTY</span></td>          <td> <span>Contact</span>          </td> <tr>
+                        <td> <span id="fs-footer-white" >LIFESTYLE</span></td>       <td> <span>Term Of Service</span>  </td> <tr>
+                        <td> <span id="fs-footer-white" >INTERTAINMENT</span></td>   <td> <span>Privacy Policy</span>   </td> <tr>
+                </table>
+            </li>
+            <li>
+                <table>
+                    <td><img src="http://localhost/fs/new_fs/alphatest/fs_folders/images/logo/footer-logo.png"></td><tr>
+                    <td> <span>@2015 Fashion Sponge All rights reserved</span></td><tr>
+                </table>
+            </li>
+        </ul>
+    </div>
+
+</div>

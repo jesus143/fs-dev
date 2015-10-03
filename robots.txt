@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /public_html/twms 
+Disallow: /public_html/twms/contest.php
+Disallow: /public_html/rate-look.php

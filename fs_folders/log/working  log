@@ -1,0 +1,592 @@
+6/242015
+- rate-article.php drop down: 'read and read later' issue.
+- copy modal/look/liked.png to genImg folder
+- add table row fs_records.fs_flag.action -> done
+- add table row fs_records.fs_flag.option -> done
+- add table row fs_records.fs_postedarticles.pltvotes -> done
+- add table row fs_records.fs_members.logstat -> done
+
+7/7/15
+1.) when a post is flagged the posting member gets a notification
+2.) only show comment notification to people who made a comment on post
+3.) show more notification not working
+4.) user name likes your look
+5.) user name dripped your look
+6.) user name favorited your look
+7.) fix the the top left and right container corners on all drop downs because they don't look nicely round
+8.) all icon drop down containers needs to appear underneath the headers white line
+9.) update description: DISCOVER AND SHARE THE LATEST IN FASHION, BEAUTY, LIFESTYLE AND ENTERTAINMENT
+10.) fix the issue with the header sticking on all the pages.
+11.) when mouse is on the words rating, rates, raking and followers, the text color will turn white
+
+7/8/15
+
+user name commented on his/her look -> done
+user name commented on your look: "comment" -> done
+user name likes your comment on this look -> done
+user name likes your article  -> done
+user name shared ( dripped ) your article -> done
+user name favorited your article -> done
+user name commented on his/her article -> done
+user name commented on your article: "comment" -> done
+user name likes your comment on this article -> done, just need to know what is the table name to identify if "on this look or article".
+when a post is flagged the send a message with a link to the posting rules asking them to delete. -> done
+jesus erwin suarez changed his/her name to jesus christ lover suarez -> done
+grouped notifications - when a user gets more then 1 action on the same post from different user all the actions will be bundled into one.
+
+7/9/15
+
+1.) sending notification detect flagged hide notification -> done
+2.) fetch not to send if the modal is being flagged. -> done
+3.) delete notification when it is being hide by the user -> done
+4.) when notification is hide only hide notification not the feed modal -> done
+5.) when a post is deleted all notification associated with the post should be removed from user notifications -> done
+
+6.) grouped notifications ->
+   - check if the notification is more than 1 with the specific user
+   - more than 1 notification update the old notification status = 2
+   - status = 2 - this can be viewed when dropdown clicked from a group
+   - fetch all notification with the status = 1 only not 2 in the header notification drop down.
+   - change notification design if it is a group notification.
+
+7.) when comment is deleted all notifications associated with the comment should be removed from user notifications-> complicated will come later
+
+
+7/10/15
+
+1.) show the members stats with the option to change stats
+2.) Header Drop Down
+
+
+7/11/15
+
+http://dev.fashionsponge.com/?welcome=tour
+http://dev.fashionsponge.com/?welcome=2
+http://dev.fashionsponge.com/?welcome=get-started
+
+
+7/13/15
+
+add: Search for people, looks, articles to the search field ->done
+Articles search results based on: member name, title, description, tags ->
+Look search results based on: member name, title, description, color, brand, material, garment, pattern, description
+People search results based on: member name ( first name, nickname, last name, username ) occupation, country, state, city, zip
+-> I noticed that this function can only handle 1 row search so to do the multiple row search we need to add a dropdown.
+
+
+suggested members -
+suggested members - show members who have things in common: close in age ( within 5 years )
+location ( live in same city or state/ providence ), likes same brands, like the same topics
+
+- add dropdown -> done
+- add function to show hide when clicked -> done
+- code the result ->
+7/14/15
+
+Coding Task ( search field )
+
+Articles search results based on: member name, title, description, tags -> search for now is "title and description" -> search for "title".
+Look search results based on: member name, title, description, color, brand, material, garment, pattern, description  -> search for "title".
+People search results based on: member name ( first name, nickname, last name, username ) occupation, country, state, city, zip -> search fro full name
+
+show Facebook friends who's on Fashion Sponge -> need explanation @mrmussolini
+invite Facebook friends - show after Facebook friend  -> need explanation @mrmussolini
+this icon will show all the people the member follow who made post the member has not seen
+
+
+7/16/15
+Login area using facebook
+Details page
+
+link the category "travel "to the category drop down on the articles page -> done
+connect the title -> done
+make the red tag circle smaller -> done
+link posting date and time  -> done
+make Facebook share function  -> done
+make pinterest share button function -> done
+link the total likes to the pop up showing all members who liked post  -> done
+
+make the like button function with option to like and unlike on the top and bottom of the page  -> done
+when member likes or unlikes the total likes number change  -> done
+link total comments made on post to total comment -> done
+
+
+
+
+7/17/15
+link the total drips on the image mouse over to the pop up showing all members who liked the post => done
+make the favorite button function with option to favorite and unfavorite => favorite working but not unfavorite this feature will come later.
+link the total favorites on the image mouse over to the pop up showing all members who favorited the post =>done
+link member name to their profile page  => done
+show members occupation => done
+show the members total looks =>  done
+show the members total followers =>  done
+link the members total looks to their looks tab page on profile page =>  done
+link the members total followers to their followers tab on their profile page  =>  done
+connect the post description text   =>  done
+link the continue reading to the pop up page   =>  done
+
+show the members total likes
+make follow and unfollow function
+when member follow or unfollow the total followers number change
+
+
+7/20/15
+make follow and unfollow function
+when member follow or unfollow the total followers number change
+
+link the member name to their profile
+link all looks to the members looks tab on their profile page
+when tags are clicked they will link to a page that will show all post tagged with that keyword
+
+add the container with thumbnails of the article image
+add left and right arrows on thumbnail container
+
+
+7/22/15
+
+Coding Tasks ( description section )
+
+- make follow and unfollow function - take mouse over away -> done
+
+- when member follow or unfollow the total followers number change -> done
+  - CONNECTED BUT NOT WORKING
+
+- show the members total likes - from all modals  -> done
+  - CONNECTED BUT NOT WORKING
+
+Coding and Design Tasks ( external page header )
+
+- Link the logo to the home page -> done
+- add left and right arrows on thumbnail container  - 10 thumbnails
+
+- 1. Make grey line lighter grey - 1 to 5 based on the design above
+- Make the left and right arrow move to the article
+- Link or connect title content to header
+- make like button function
+- make share buttons function
+
+stop work on fs 4pm.
+stop work on marc 6pm.
+
+7/23/15
+Change the design of the "comments(17) => done
+remove the comment close() => done
+make the comment working. => done
+link the date and time of post => done
+link the members names to the members profile page => done
+link the member avatar to the members profile page => done
+connect the drop down sorting options => done
+add the comment page number underneath the comment container => done
+
+@todo 7/24/15
+continue the Coding Tasks ( comment section )
+
+@todo 7/28/15
+-> create a feed in the details page
+
+@todo 7/29/15
+-> make the details page view more
+-> fix the duplicated ids like mouse over
+-> fix the issue of the lookdetails category
+-> understand the issue of the feed not showing
+
+-> change the thumbnails to only showing the same type of style
+-> change the lookdetails page to show only the same style from other members
+
+@todo 7/30/31
+->having a call with rico
+->do the details pages task remaining
+
+@todo 7/31/15
+
+ ->ADD NEW ROW FOR FS_MEMBERS with post_look_agree
+
+ ->check for the last time details page
+ ->proceed to the new task
+ ->watch video
+ ->get a list to work on
+ -> work on postalook.php functions
+ -> saving work but html intetis not working need to find ways to fix it.
+ -> add table fs_members.post_look_agree = bloean
+
+
+
+
+@todo checking the entire function and system
+
+ Personal testing
+ -> check the login process
+ -> check the registration
+ -> check the welcome popup
+ -> check the feed
+ -> check the look details page
+ -> check the article details page
+ -> check the profile page
+ -> check the account page
+ -> check the rate look page
+ -> check the rate article page
+ -> check the user feed
+
+  http://www.screencast.com/t/E9uyZWa6Y
+  FEED 1
+
+      - style clicked should go to -> reate look with the style
+      - category clicked should go to -> reate look with the style
+      - if clicked the title should go to the actual article for article post
+      - if clicked the title should go to the actual article for look post
+      - when person like the red heart should show
+      - person like it if no liker then it should the name of the person will show realtime
+      - person like the look with 1 likers it should say username and 1 others in realtime
+      - views popup thumbnails should look proportion
+      - views popup thumnails follow button should look proportion
+      - views popup corner should have a round corner
+      - add show more to clicked for them to go to the article
+
+
+  FEED 2
+    - Modal drip change to share
+    - Modal drip change to share popup
+    - Update button cancel and drip in drip popup
+    - drip message needs to be black
+    - hide post comment
+
+
+  FEED 3
+  http://www.screencast.com/t/70pthy134TmL
+
+      - favorite is need to be update to dark gray not yellow.
+      - undifined user has an activity
+      - remove the log stat in member modal
+      - Name Occupation in member modals
+      - follow button is not working in the modal
+      - comment from the modal redirect to look details page
+      - comment from the modal redirect to article details page
+
+  FLAG
+      http://www.screencast.com/t/AlnEsX2dN3
+
+      - hide the name of who flag the modals
+      - discuss about flag for more info.
+
+  HEADER LINK
+  http://www.screencast.com/t/KDx1aAHH3
+
+      - Only the image logo is clickable the white space should not
+      - Remove the underline under the text header
+      - Feed text need to redirect to the user feed
+
+      Look dropdown not showing correct style when clicked
+        - Casual
+        - Formal
+        - Grugne
+        - Streewear
+
+        - mouse over header and out in the dropdown needs to work
+        - all looks assigned to all style
+        - view all is assigned to all style
+
+
+  HEADER 4
+  http://www.screencast.com/t/f2jzx8zWSH
+
+      - Flag notification should not show in the other users only the owner.
+      - People receiving that notification even he didn't owned the look its because he participated to that
+        look.
+
+  HEADER MEMBER
+  http://www.screencast.com/t/I8Q9SonN
+
+
+  LOOK
+  http://www.screencast.com/t/g4kSXfndcU
+
+       - rate article is not coded yet its just a copy of look page
+       - add not plus blogger
+       - no hide in the rate look page
+
+  NOTIFICATION 2
+  http://www.screencast.com/t/vuXwHXkLBYkk
+
+      flag
+          - only owner of the modal will received the notification
+
+      rated
+          - notification is being sent to the person who particepated recently for them also to be
+            notified because they participated on the look.
+
+
+  HEADER MEMBER 2
+  http://www.screencast.com/t/csRlflkfwkP
+
+      - Facebook friends on fs and Facebook friends to invite need to be loading when initialized
+      - Facebook friends on fs and Facebook friends to invite text need to be centered
+      - Facebook friends to invite need to have a grey line underneath
+      - flag should show the message what they selected
+      - flag show in the message or notification need to discuss
+
+  PROFILE
+  http://www.screencast.com/t/csRlflkfwkP
+
+      - Connect the timeline info to real info of the user
+      - about me and edit account button need to be updated
+      - online change to online now in the timeline
+      - Date joined change to Date Joined
+      - Link social to real content of the site
+
+
+  NOTIFICATION
+  http://www.screencast.com/t/uRNkEY5Oo
+    - The entire page are moving when scrolled
+
+
+
+  HEADER SETTINGS
+  http://www.screencast.com/t/9KTRMHuESwBJ
+
+      - Current login user should not show as suggested member
+      - Suggested member should show correct age
+      - add follow button in suggested members
+      - suggested member is the correct and proportion width and height notification and messages are not proportion.
+      - remove the settings arrow up dropdown
+      - center the settings dropdown just like the other dropdown
+      - dropdown mouseover settings color need to be updated
+      - dropdown settings need to be same  with of the mouseover bubble and blue same with the upper blue header
+      - post button dropdown need to be updated as well same with the setting  dropdown blue color and arrow up remove.
+      - connect the look posting to the new design
+      - connect the article posting to the new design
+
+  HEADER MEMBER
+  http://www.screencast.com/t/I8Q9SonN
+     - border radius of the member suggest
+     - make the heigh smaller of the member suggest
+     - dont show the current login
+     - add follow button for fb friends on fs
+     - add follow button for suggested member
+     - dropdown following the page when scrolling
+
+
+
+
+@todo 8/20/15
+
+fix the posting look description that saves all the data
+
+      - search a solution in the internet keyword: "How to save html in database using php" ?
+
+            $ParentName = mysql_real_escape_string($ParentName);
+      - update source of saving with new found answer
+      - update the display
+      - some html content dont show and has an error inside the email like link.
+
+
+the topic field is suppose to show a list of topics based on the selected category.
+
+  - get the specific topic in each category
+  - when selected this category new topic should append to the div
+  - code it using javascrip
+
+when the image is clicked it goes to the old details designed page
+
+  - change the link to articledetails-dev.php?id=[{id}]
+
+@todo 8/21/15
+
+typing topic and tags auto suggest
+
+* code the article details page
+ - get the specific article content
+ - add mouse over of the footer
+ - view
+ - drip
+ - favorite
+ - share
+ - comment
+   - display realtime comment
+   - sorting comment
+
+** change **
+  - feed suggestions
+  - thumbnails
+  - no tags
+
+
+@todo 8/24/15
+continue the article details page design and coding
+
+@todo 8/27/15
+fix the lookdetails comment
+fix the lookdetails delete comment
+refresh next prev comment and total comment when comment is deleted
+
+fix the articledetails comment
+fix the articledetails delete comment
+refresh next prev comment and total comment when comment is deleted in article details
+
+@todo 8/28/15
+
+Download mozilla firefox
+test the delete and edit comment
+
+the edit and delete comment icons don't show correctly on firefox
+when deleting a comment next & prev numbers of comment needs to updated
+make reply link function
+article modal is not up with thumbnails like look modal
+update the edit pop up design and functions ->
+
+FS  2:00 - 3:00
+BET 3:00 - 6:00
+Ask money for the widding.
+
+@todo 9/3/15
+continue the welcome
+
+
+@todo 9/3/15
+upload image added to profile graphics
+show the brand in the list of the brand in the admin area.
+
+@todo 9/11/15
+fix the showing of more button - done
+fix the tab showing the specific brand when clicked - done
+show more button with the specific brand - done
+
+@todo 9/16/15
+add female male option
+add function for gender
+adjust with scrolling
+save the information when clicked saved
+
+@todo 9/17/15
+add auto post when finished loading
+upload the profile pic selected
+resize the profile pic selected
+check for the last time
+upload the code and update the database in the server
+
+@todo 9/18/15
+typing showing an error validation
+upload profile pic
+add loading every tab
+saving the welcome information
+make the upload profile pic working
+
+@todo 9/19/15
+scrolling
+fix design
+suggest the brand based on the gender selected
+fix the remaining task
+update trello to checked all and moved it to completed
+
+@todo 9/21/15
+get the topic and brand selected of the user add it to the user class
+get_username_by_mno() need to be updated to fs_members.identity_login to get the username
+validate the blog url and set the same if either with www. or don't. => done
+undifined result for more brand in male gender => done
+change the database plus_blogger to empty not default yes. => local done => online not done
+adjust the profile image container to smaller => done
+
+@todo 9/22/15
+change the database plus_blogger to empty not default yes. =>  done
+add crop or not design and function =>  done
+adjust the image =>  done
+record a video =>  done
+send the video to rico
+
+@todo 9/23-26/2015
+
+ABOUT YOU
+last name field shows the members first name. => done
+center the about you text. Make text larger. => done
+make both drop downs the same size => done please check
+make profile upload image smaller => done
+center i want to crop text and check box => done
+reduce the padding above the 3 dots => hard
+
+SELECT BRANDS
+fix issue with seeing the images scroll across the screen => hard
+center the select brands text. Make text larger. => done
+make links text larger => done
+remove menswear link when female is selected   => done
+remove bohemian and chic when male is selected  => done
+put preppy before streetwear => done
+only 12 brand images show and it should show 15 before more brand is clicked   => done
+Add name to images  => done
+reduce the padding above the 3 dots => hard
+don't allow to hide continue if there is exist or some invalid value. => done
+
+SELECT TOPICS
+fix issue with seeing the images scroll across the screen => hard
+center the what do you... text. Make text larger.  => done
+make links text larger => done
+15 topic images should show before more brand is clicked
+
+WELCOME TOUR
+Add correct text to each 1-5 tour => done
+remove the back button on the number 1 tour => done
+add another grey dot to make a total of 5 => done
+make the black dot show on the number of the tour => done
+make the x button close out the tour => done
+make the continue button close out the tour => done
+
+GET STARTED
+connect the get started to the welcome and sign up info => done
+fix the header hiding the yellow  => done
+show the member first name after welcome to fashion sponge => done
+remove: Thank you for joining Fashion Sponge. => done
+Make welcome to fashion sponge text bold => done
+make getting started text bold  => done
+make the x bold  => done
+add the images - make each image area dynamic to the latest image uploaded in that function  => done
+
+PENDING TASK (2)
+reduce the padding above the 3 dots => hard
+fix issue with seeing the images scroll across the screen => hard
+Sending and clicking the link from email for confirmation => not done
+
+
+tlog
+0-2 = Welcome page
+3   = Tour
+4   = Get started and confirmation email
+5   => no more to show
+
+
+
+Make the confirm working and create a link
+if not login don't allow anything to do the site its just to look at
+Look drop down update the real image in all the header
+SIGN OUT
+    Redirect hoe page when visit
+        Post a look => done
+        Post article => done
+    Show login when click
+        Like => done
+        Drip => done
+        Favorite => done
+    Show login when do
+        Comment feed => done
+        Comment details => done
+        Like a comment => done
+         Dislike a comment => done
+    Disable the
+        more in details page
+        search function
+
+after sign up redirect it to home page => done
+remove the block in display_crop => done
+
+
+Explain more about "COMPLETE PROFILE" in get started.
+
+
+
+
+
+
+
+
+
+
+
+

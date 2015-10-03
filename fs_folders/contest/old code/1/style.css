@@ -1,0 +1,168 @@
+body {
+background-color:#ffffff;
+font-family:"Myriad Pro";	
+color:#333;
+margin:0;
+padding:0;
+}
+
+#wrapper {
+width:960px;
+background-color:#ffffff;
+margin:0 auto;
+}
+
+#header {
+width:960px;
+height:543px;
+margin:0 auto;
+margin-bottom:25px;
+border-top:1px solid #ccc;
+background:url(images/banner.png);
+}
+
+#header h2 {
+padding:10px;
+}
+
+
+#content {
+width:930px;
+float:none;
+padding:10px;
+}
+
+.arrow{
+	background:url(images/arrow.png) no-repeat;
+	height:103px;
+	width:800px;
+	margin:0 auto;
+}
+
+#footer {
+clear:both;
+width:960px;
+height:477px;
+border-top:1px solid #ccc;
+background:url(images/bottom-bg.png);
+}
+
+#footer p {
+padding:10px;
+text-align:center;
+}
+
+h2 {
+	color:#be1f25;
+	font-family:"Myriad Pro";
+	text-transform:uppercase;
+	font-size:40px;
+	text-align:center;
+	font-weight:400;
+	letter-spacing: 5px;
+}	
+
+h3{
+	color:#1b396c;
+	font-family:"Myriad Pro";
+	text-transform:uppercase;
+	font-size:20px;
+	text-align:center;	
+}
+
+.colcontainer {
+	width:1000px;
+	margin:0 auto;
+}
+
+.col1 {
+	float:left;
+	width:180px;
+	margin:2px 5px 5px -30px;
+}
+
+.col2 {
+	float:left;
+	width:180px;
+	margin:2px 5px 5px 85px;
+}
+.col3 {
+	float:left;
+	width:180px;
+	margin:2px 5px 5px 75px;
+}
+.col4 {
+	float:left;
+	width:180px;
+	margin:2px 5px 5px 80px;
+}
+
+.col1 p, .col2 p, .col3 p, .col4 p {
+	text-align:center;
+}
+
+#footer .colcontainer {
+	width:1010px;
+	margin:0 auto;
+}
+
+#footer .col1 {
+	float:left;
+	width:365px;
+	height:333px;
+	margin:40px 5px 50px 110px;
+	background:url(images/bethefirst.png) no-repeat;
+}
+
+#footer .col1 h3 {
+	text-align:center;
+	color:#be1f25;
+	padding-top:50px;
+	font-size:30px;
+	font-weight:100;
+	letter-spacing: 5px;
+}
+
+#footer .col1 p {
+	text-align:center;
+	padding:0px 50px 30px 50px;
+	color:#343536;
+	font-size:16px;
+}
+
+#footer .col2 {
+	float:left;
+	width:300px;
+	margin:60px 5px 5px 90px
+}
+
+input[type="text"]
+{
+width:264px;
+height:38px;
+display:block;
+margin-top:20px;
+background:url(images/textbox.png);
+padding:5px;
+}
+
+input[type="submit"], #pop
+{
+width:271px;
+height:53px;
+margin-top:20px;
+background:url(images/submit.png);
+border:none;
+margin-left:2px;
+}
+
+#overlay_form{
+	position: absolute;
+	border: 5px solid #1a3968;
+	padding: 10px;
+	background: white;
+	width: 350px;
+	height: 400px;
+	top: 50%;
+    left: 40%;
+}

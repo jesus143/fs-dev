@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+
+    <!--header meta for responsive mobile-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+     <!--css -->
+
+    <link rel="stylesheet" href="../../../fs_folders/Assets/css/bootstrap-theme.css" >
+    <link rel="stylesheet" href="../../../fs_folders/Assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="../../../fs_folders/Assets/css/bootstrap.css" >
+    <script src="../../../fs_folders/Assets/js/jquery-1.11.2.js" ></script>
+    <script src="../../../fs_folders/Assets/js/bootstrap.min.js" ></script>
+    <script src="../../../fs_folders/Assets/js/javascript.js" ></script>
+    <script src="../../../fs_folders/Assets/js/jquery.js" ></script>
+    <link rel="stylesheet" href="../../../fs_folders/Assets/css/style.css" >
+    <script src="../../../fs_folders/js/function_js.js" ></script>
+    <script src="../../../fs_folders/js/Scrape.js" ></script>
+
+    <title> Location </title>
+</head>
+<body>
+    <div class="container">
+        <div id="response" >
+            this is the response
+
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Time1</th>
+                        <th>Time2</th>
+                        <th>Time3</th>
+                        <th>Edit</th>
+                        </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>New York (EST)</td>
+                    <td>9:00 Am</td>
+                    <td>10:00 Am</td>
+                    <td>11:00 Am</td>
+                    <td>
+                        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo0">
+                            Update Content
+                        </button>
+                        <img src="../../../fs_folders/images/attr/loading 2.gif" id="fs_invited_location_send_tim1-idNum-loader" style="visibility:hidden"  />
+                    </td>
+                </tr>
+                <tr id="demo0" class="collapse Out" >
+                    <td>
+                        <input type="text" class="form-control" value="EST" id="location-time-zone" />
+                        <button type="button" class="btn btn-default" onclick="fsInvitedChangeTimeZone('#location-time-zone')" >Update</button>
+                    </td>
+                    <td>
+                        <select onchange="fsInvitedChangeTime(this)" id="fs_invited_location_send_tim1-1" class="selectpicker" >
+                            <option>8:00 Am</option>
+                            <option>9:00 Am</option>
+                            <option>10:00 Am</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select onchange="fsInvitedChangeTime(this)" id="fs_invited_location_send_tim2-1" class="selectpicker" >
+                            <option>8:00 Am</option>
+                            <option>8:00 Am</option>
+                            <option>8:00 Am</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select onchange="fsInvitedChangeTime(this)" id="fs_invited_location_send_tim3-1" class="selectpicker" >
+                            <option>8:00 Am</option>
+                            <option>8:00 Am</option>
+                            <option>8:00 Am</option>
+                        </select>
+                    </td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+<!-- Bootstrap core JavaScript
+   ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+</html>

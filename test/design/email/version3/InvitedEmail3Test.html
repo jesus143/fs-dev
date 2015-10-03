@@ -1,0 +1,397 @@
+
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <!-- If you delete this tag, the sky will fall on your head -->
+    <meta name='viewport' content='width=device-width, initial scale=1.0'>
+    <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+</head>
+
+<body bgcolor='#FFFFFF'>
+
+<!-- HEADER -->
+<!-- /HEADER -->
+
+<style type='text/css'>
+/* -------------------------------------
+        GLOBAL
+------------------------------------- */
+* {
+    margin:0;
+    padding:0;
+}
+* { font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; }
+
+img {
+    max-width: 100%;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+}
+
+
+/* -------------------------------------
+        ELEMENTS
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+    /* 	padding:15px; */
+    background-color: #ebebeb;
+
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+    display:block;
+    width:100%;
+}
+
+/* -------------------------------------
+        HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* -------------------------------------
+        BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+        FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;	clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+
+}
+
+
+/* -------------------------------------
+        TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+}
+p.lead { font-size:17px; padding-top: 15px;text-align: left;color: #000000;}
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+
+/* -------------------------------------
+        SIDEBAR
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+    /* 	font-weight:bold; */
+    margin-right:10px;
+    /* 	text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* ---------------------------------------------------
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:600px;
+    margin:0 auto;
+    display:block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+    padding:0!important;
+    margin:0 auto;
+    max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* -------------------------------------------
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+    a[class='btn'] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class='column'] { width: auto!important; float:none!important;}
+
+    table.social div[class='column'] {
+        width:auto!important;
+    }
+}
+
+.header-1 {
+    /* border:1px solid red; */
+    text-align:center;
+}
+.header-1 div  {
+    margin:auto;
+}
+.text-1 {
+    color: 1a386a;
+    font-size: 23px;
+    font-family:arial;
+    color:#c51d20;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    padding: 15px 0px 15px 0px;
+    line-height: 1;
+    font-weight:bold;
+}
+.text-2{
+    font-weight:bold;
+}
+.image{
+    padding-bottom:20px;
+    padding-top:20px;
+}
+.container-1{
+    border: 1px solid #f4f3f2;
+    padding: 10px;
+}
+table.table-1 {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+td.logo {
+    width: 50%;
+}
+
+td.logo img {
+    float: right;
+}
+
+</style>
+<!-- BODY -->
+<table class='body-wrap'>
+    <tbody><tr>
+        <td> </td>
+        <td class='container' bgcolor='#FFFFFF'>
+            <div class='content'>
+                <table>
+                    <tbody><tr>
+                        <td class='container-1' style='border:1px solid #f4f3f2;padding:10px;color:#1a386a;font-size: 13px;' >
+                            <div class='header-1'>
+                                <center>
+                                    <table style='width: 100%;'  border='0' cellspacing='0' cellpadding='0' class='table-1' >
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <img style='cursor:pointer; width:100%; border-bottom: 1px solid #FFFFFF'  src='http://www.fashionsponge.com/fs_folders/images/email/header-logo-1.jpg' >
+                                                </div>
+                                            </td>
+                                            <tr>
+                                            <td>
+                                                <div>
+                                                    <img style='cursor:pointer; width:100%;' src='http://www.fashionsponge.com/fs_folders/images/email/header-slides.gif'>
+                                                </div>
+                                            </td>
+                                        <tr>
+                                            <td>
+                                                <div style='padding-top:30px;  margin:0px auto; border:1px solid none;text-align: center' >
+                                                    <img style='cursor:pointer; width:auto; ' src='http://www.fashionsponge.com/fs_folders/images/email/version3/time-1.jpg'>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </center>
+                            </div>
+                            <div class='lead' style='padding-top:10px;' >
+                            </div>
+
+                            <div class='lead'>
+
+                                <p style='font-size: 1px; color:white;position:absolute;' >
+                                    FINALLY, SOMETHING COOL FOR BLOGGERS.
+                                </p>
+                                <p>
+                                    My name is <b>Mauricio</b>, I'm the Founder & Creative Director at Fashion Sponge. <b style='color:#b0231c' >This is no sales email.</b> My reason, for emailing you is really very straight forward. You were referred by a friend or another blogger so wanted to personally let you know about my invite only community.
+                                </p>
+                                <p>
+                                    Fashion Sponge is a social network where the best content creators in <b>Fashion</b>, <b>Beauty</b>, <b>Lifestyle</b> and <b>Entertainment</b> can showcase their content to people who's looking to discover the latest about people, places and things.
+                                </p>
+                                <p>
+                                    Fashion Sponge was created as an alternative to the popular communities that allows anyone to post anything, as much as they want and anytime they want.
+                                </p>
+                                <p>
+                                    <b>Fact:</b> Every minute, Facebook users are posting nearly 2.5 million pieces of content, Instagram user post nearly 220,000 new photos and WordPress users post over 61,000 articles in an hour. At this rate it's become harder for people to discover great content.
+                                </p>
+                                <p>
+                                    Limiting memberships to content creators who create content that’s either compelling, inspirational, informative or entertaining, Fashion Sponge will become a go-to destination for seeing the best content by the best content creators.
+                                </p>
+                                <p style='color:#ad2219;font-weight: bold' >
+                                    Quick Question:
+                                </p>
+                                <p>
+                                    <b>Are you creating high quality content that's either compelling, inspirational, informative or entertaining, that's not getting a lot of views, likes or shares?</b>
+                                </p>
+                                <p>
+                                    If so, Fashion Sponge just maybe the answer to your dilemma. <a href='#' style='color:#ad2219;' >Sign up now.</a>
+                                </p>
+                                <p>
+                                     <span style='color:#1a386a;'>
+                                        <b>Mauricio | Founder &amp; Creative Director</b> <br>
+                                        <a href='#' style='color: #2BA6CB;'>Mauricio@fashionsponge.com</a>
+                                    </span>
+                                </p>
+                            </div>
+
+                            <!--content-->
+                            <div class='lead' style='padding-top:5px;'>
+                            </div>
+
+                            <div style='padding-top:0px;'>
+                                <img style='cursor:pointer; width:100%;' src='http://www.fashionsponge.com/fs_folders/images/email/version3/devices-new.jpg'>
+                            </div>
+
+                            <div style='padding-top:10px;'>
+                                <img style='cursor:pointer; width:100%;' src='http://www.fashionsponge.com/fs_folders/images/email/version3/4-reason.jpg'>
+                            </div>
+
+                            <div style='padding-top:10px;'>
+                                <img style='cursor:pointer; width:100%;' src='http://www.fashionsponge.com/fs_folders/images/email/version3/4-boxes.jpg'>
+                            </div>
+
+
+
+
+
+
+                        </td>
+                    <tr>
+                            <td>
+                                <!--footer-->
+                                <div style='background-color: #1a4178; padding:12px; color:#FFFFFF'>
+                                    <p style="font-size: 120%" >
+                                        This invitation was sent to <span style='color:#f5d13f'>$to</span>. To ensure you get notice of your invite, you will receive 2 additional emails. If you don't want to receive anymore emails in the future, <a style='color:#f5d13f; text-decoration: none;' href='$link_remove' target='_blank'> click here </a> to remove your email.
+                                    </p>
+                                </div>
+                            </td>
+                    </tr>
+                    </tbody></table>
+            </div>
+        </td>
+    </tr>
+    </tbody></table><!-- /BODY -->
+</body>
+</html>

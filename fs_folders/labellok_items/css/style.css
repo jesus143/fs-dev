@@ -1,0 +1,384 @@
+body{  
+	position: relative;
+	/*background-color: #ccc;*/
+	background-color: #ffffff;
+	padding: 0px;
+}
+
+/*left_side*/
+body #container  { 
+	position: relative;
+ 	border: 1px solid #e2e2df; 
+ 	/*border: 1px solid red; */
+	width: 1024px;  
+	background-color: #e9eaed;
+	padding-bottom:90px; 
+
+}
+body #body {  
+	/*border: 1px solid yellow;*/
+	/*height: 510px;*/ 
+}
+body #left_side { 
+	background-color: #FFFFFF;
+	padding-top:20px;
+	padding-bottom: 30px;
+	position: relative;
+	border: 1px solid #ccc;
+	border-bottom: none;  
+	width:889px;  
+	border-radius: 5px 5px 0px 0px;
+
+	/*width: 500px;  
+ 	height: 500px;*/
+ 	/*float: left;*/
+ 	/*background-color: #000;*/
+} 
+	#left_side img { 
+		/*position: absolute;*/ 
+		z-index: 0;  
+		/*position: relative;*/
+		/*height:100%; */
+		cursor: crosshair;
+		/*width:500px;*/
+		/*height:500px;*/
+		/*border: 1px solid #000; */
+	}
+body #right_side { 
+	position: relative;
+	float: left;
+	/*border: 1px solid #000;*/
+ 	width: 100%;
+ 	height: 400px; 
+ 	/*border: 1px solid #000; */
+}
+	#right_side span , #footer span { 
+		/*font-weight: bold;*/
+		font-size: 25px; 
+	}
+	#right_side #onetwo { 
+		/*width: 410px;*/
+		/*margin-left:35px;*/
+		/*font-weight: bold;*/
+		font-size: 12px;
+		resize:none;   
+		float: left;
+	}
+	#right_side #span345{   
+		font-size: 18px; 
+		/*font-weight: bold;*/
+	}
+	#right_side #input345 { 
+		width: 410px;
+		/*margin-left: 35px;*/
+		/*font-weight: bold;*/
+	} 
+	/*drop down 3-5 */
+		.res_occasion , .res_season , .res_style { 
+			margin-top: 30px;
+			margin-left: 20px;
+			position:absolute;
+			/*border:1px solid #000;*/
+			width:700px; 
+			background-color:#ffffff;  
+			display:none;
+			z-index: 1;
+			padding: 20px;
+
+
+
+		}
+		.res_occasion { 
+			right:1px; 
+		}
+		.res_season{  
+			right:1px; 
+		}
+		.res_style{  
+			right: 16px;
+		}
+		.res_occasion table , .res_season table , .res_style table    { 
+			width: 700px;
+			/*padding:15px;*/
+			/*border:1px solid #000;*/
+			
+			margin-left: 10px;  
+		}
+		.res_occasion table td , .res_season table td , .res_style table td  {
+			cursor: pointer;
+			font-size:15px;
+			/*border:1px solid #000;*/  
+			color: #284372;
+		}
+		.res_occasion table td:hover , .res_season table td:hover , .res_style table td:hover { 
+			text-decoration: underline;
+
+		}
+		.x_out { 
+			
+			float: right;
+			cursor: crosshair;
+		}
+		.x_out:hover{ 
+			color: red;
+		}
+
+		body #footer { 
+			position: relative; 
+			float: left;  
+			/*border: 2px solid yellow;*/
+			width: 100%;
+		}
+	       #tag_list .item td { 
+				/*position: relative;		*/
+				border: 1px solid none !important; 
+				/*padding-top:20px;
+				padding-bottom:40px; */
+
+			}
+	       #tag_list .item td input {
+				/*width: 120px;*/
+				/*color: #CCC; */
+				/*height: 21px;  */
+				 
+			 
+			} 
+			#tag_list table td{ 
+				padding-bottom: 2px;
+				/*padding-left: 2px;*/
+
+			}
+			#tag_list ul { 
+				padding: 0px;  
+			}
+			#tag_list ul li { 
+				list-style:none; 
+				float: left; 
+				/*border: 1px solid #000; */
+			}
+		 	#tag1 {  
+				/*border: 1px solid red;*/ 
+			}
+
+				#tag1 #ajax_BRAND div , #tag1 #ajax_GARMENT div , #tag1 #ajax_PRICE div {
+					/*border: 1px solid #000;*/
+					/*border-top:none; 
+					cursor: pointer;   onetwo
+					background-color: #ccc; 
+					padding-left: 5px;
+					font-size: 15px;
+					font-weight: bold; static_div_input
+					color: #000;
+					border-top:none;
+					margin-top:-1px;*/
+				}
+				#tag1 #ajax_BRAND div:hover , #tag1 #ajax_GARMENT div:hover, #tag1 #ajax_PRICE div:hover {
+					/*background-color: white; */
+				}				
+				#tag1 #ajax_GARMENT{ 
+					/*background-color: red;*/
+
+				} 
+
+				#tag1 table  { 
+       				width: 100px;
+       				/*background-color: grey; */
+       				 
+				}	
+	        	#tag1 table td { 
+	        		/*border: 1px solid red;*/
+	        		list-style: none;
+	        		float: left; 
+	        		/*width: 20px;*/
+	        		/*margin-left: -20px;*/
+	        		background-color: white;
+				}	
+	        	/*#tag1 table li li {  tag1
+	        		border: 2px solid #000;
+	        		list-style: none; 
+	        		float: none;
+	        		width: 200px;
+	        		opacity: none;
+	        		width: 100px;
+	        		height: 20px;
+	        		right:0px; 
+	        		cursor: pointer;
+				}	*/			
+
+
+
+			#post_on {  
+				/*position: relative;*/ 
+				/*border: 1px solid #000;*/
+
+			}
+			#post_on #fbtw{  
+				font-size: 20px;
+
+			} 
+			#post_on span { 
+				font-size: 12px;
+				font-family: 'arial'; 
+				color: #284372;
+			}
+			#post_on img { 
+				height: 10px;
+				cursor: pointer;
+			}
+			#post_on table td table td { 
+			 	height: 50px;
+			 	border-bottom:1px solid #ccc; 
+			}
+			#post_on table td table td input[type='text'] {  
+				display: none;
+			}
+
+			#save input { 
+				width: 200px;
+				height: 40px;
+				background: #000;
+				color: white;
+			}
+			#share_to_fb { }
+			#share_to_twitter { }
+			#constructive_feedback { }
+
+
+
+/*general*/
+
+
+
+
+
+
+
+/*for searching and options dropdown in ajaxquery folder*/
+#ajax_div_container{ 
+ 	background-color: #ffffff;
+ 	border: 1px solid #000;
+ 	width: 870px;
+ 	/*border-top: none;*/
+}
+#ajax_div_container table { 
+	width: 100%;
+	padding: 20px 0px 20px 20px;
+	/*border: 1px solid #000;*/
+ 	
+}
+#ajax_div_container table td { 
+	/*border: 1px solid #000;*/
+	width: 100px;
+}
+
+#ajax_div_container table td span { 
+	/*border: 1px solid #000;*/
+	width: 100%;
+}
+#ajax_div_container table td span { 
+ 	font-size: 14px; 
+ 	cursor: pointer;
+ 	font: verdana;
+}
+#ajax_div_container td span:hover {
+	text-decoration: underline;
+}
+
+
+
+
+#x{   
+	position: relative;
+	font-size: 10px; 
+	font-weight: bold;
+	color: #000;
+	margin-left: 847px;
+}
+#x:hover{ 
+	cursor: crosshair;
+	color: red;
+}
+
+
+ 
+#item1{ 
+ 	font-size: 16px;
+ 	/*padding-right: 10px;*/
+
+}
+/*#table_container_ , #table_container_2 , #table_container_3 , #table_container_4 { 
+	display: block;
+}
+ */
+ /*item1*/
+#hastag_box_list { 
+	width: 822px;
+	 
+	background-color: #000;
+	/*width: 97.6%;*/
+	/*height: 200px;*/
+	/*margin-left: 60px;*/
+	padding: 20px;
+	/*margin:0 auto;*/
+	margin-left: 64px;
+ 
+   
+}
+#hastag_box_list td { 
+	color: white;
+}
+#hastag_box_list table td span { 
+	/*color: #ffffff;*/
+	font-size: 15px;
+	/*display: none;*/
+	color: white;  
+
+}
+#block_barrer { 
+	display: none;
+	z-index: 1;
+	position: absolute;
+	border: 1px solid #000;
+	width: 122px; 
+	background-color: #000000;
+	opacity: 0.5;
+	color: #ffffff;
+	margin-left:2px;  
+	padding: 5px;
+	cursor: crosshair;
+}
+#block_barrer b { 
+ 	color: #ffffff;
+ 	font-size: 12px;
+}
+#block_barrer span  { 
+	color: #ffffff;
+ 	font-size: 12px;
+}
+#del_tag_option{ 
+	/*width: 50px;
+	height: 50px;
+	background-color: #000;
+	border: 1px solid red;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	 */
+
+  
+}
+#clicked_and_hide{ 
+	display: none;
+}
+ 
+/*
+#tagged_list_5{ 
+	display: none;
+}*/
+
+
+.remove_tags_occasion, .remove_tags_session{ 
+	display: none;
+	color: red;
+}
+  

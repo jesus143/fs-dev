@@ -1,0 +1,6 @@
+<?php for ($i=15; $i <31; $i++): ?>
+    <li>
+        <img onclick=" welcome_thumbnail_select('#img-thumbnail-hover-row1-', '<?php echo $i ?>', 'selected_1', '#welcome-show-more-row1')" onmouseout="welcome_thumbnail_out('#img-thumbnail-hover-row1-', '<?php echo $i ?>')" id='img-thumbnail-hover-row1-<?php echo $i ?>' class="img-thumbnail  img-thumbnail-hover img-thumbnail-row-1" alt="140x140" src="fs_folders/images/welcome-popup/select-check.png" data-holder-rendered="true" style="width: 140px; height: 140px;">
+        <img onmouseover="welcome_thumbnail_hover('#img-thumbnail-hover-row1-', '<?php echo $i ?>')" class="img-thumbnail" alt="140x140" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ1LjUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" data-holder-rendered="true"  >
+    </li>
+<?php endfor; ?>

@@ -1,0 +1,38 @@
+#signup-row-title { 
+	font-size:40px;
+	font-family:misoLight; 
+	margin-top:30px; 
+	color:white;
+} 
+#signup-row-content { 
+	font-size:15px;
+	font-family:arial; 
+	margin-top:50px; 
+	text-align:center;
+	width:800px;
+	opacity: 0.5px;
+	font-weight: normal;
+	color: #ffffff;
+} 
+#reg_header { 
+ 	width:1010px;
+ 	height: 550px; 
+	border: 2px solid green;    
+}
+#reg_header img {   
+}   
+#signup-why-join-four-reasons { 
+	/*border: 1px solid red; */
+	padding-left: 20px; 
+} 
+#signup-why-join-four-reasons li {  
+	list-style: none; 
+	float: left;
+	border: 1px solid red;
+	/*padding-left: 40px; */
+	width: 210px;
+	height: 270px;
+} 
+*:focus {
+    outline: none; 
+} 

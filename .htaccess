@@ -1,0 +1,88 @@
+RewriteEngine On
+
+RewriteRule    	^adscontroller/?$    				controller-ads.php    [NC,L] 
+RewriteRule    	^postcontroller/?$    				controllerpostedlooks.php    [NC,L] 
+RewriteRule    	^logscontroller/?$    				controller-activitylogs.php    [NC,L] 
+RewriteRule    	^membercontroller/?$    			controller-fs-members.php    [NC,L] 
+RewriteRule    	^postedcontroller/?$    			controller-postedlooks.php    [NC,L] 
+RewriteRule    	^editimage/?$    					editimage.php    [NC,L] 
+RewriteRule    	^topmembers/?$    					topmembers.php    [NC,L] 
+RewriteRule    	^toplooks/?$    					toplooks.php    [NC,L] 
+RewriteRule    	^latest/?$    						latest.php    [NC,L]  
+RewriteRule    	^lookdetails/?$    					lookdetails.php    [NC,L] 
+RewriteRule    	^follow/?$    						findfriends.php    [NC,L] 
+RewriteRule    	^postalook/?$    					postalook.php    [NC,L] 
+RewriteRule    	^postarticle/?$    					postarticle.php    [NC,L] 
+RewriteRule    	^postamedia/?$    					postamedia.php    [NC,L] 
+RewriteRule    	^account/?$    						accountsettings.php    [NC,L]  
+RewriteRule    	^home/?$    						index.php    [NC,L] 
+RewriteRule    	^rate/?$    						ratealook.php    [NC,L] 
+RewriteRule    	^labellooks/?$    					labellooks.php    [NC,L] 
+RewriteRule    	^profile/?$    						profile.php    [NC,L]  
+RewriteRule    	^invite/?$    						invite.php    [NC,L]    
+RewriteRule    	^info/?$    						info.php    [NC,L]    
+RewriteRule    	^admindashboard/?$    				admindashboard.php [NC,L]    
+RewriteRule    	^adminlogin/?$    					adminlogin.php     [NC,L]    
+RewriteRule    	^look-details-view-more/?$    	    look-details-view-more.php [NC,L]     
+RewriteRule    	^popularlooks/?$    				popularlooks.php [NC,L]   
+RewriteRule    	^popularmembers/?$    				popularmembers.php [NC,L]   
+RewriteRule    	^populararticles/?$    				populararticles.php [NC,L]   
+RewriteRule    	^popularmedia/?$    				popularmedia.php [NC,L]   
+RewriteRule    	^z/?$    							zoom.php [NC,L]   
+RewriteRule    	^r/?$    				            r.php [NC,L]    
+RewriteRule    	^uploadbrands/?$    			    uploadbrands.php [NC,L]    
+RewriteRule    	^viewlooks/?$    			        viewlooks.php [NC,L]   
+RewriteRule    	^login/?$    			        	login.php [NC,L] 
+RewriteRule    	^contest/?$    			        	contest.php [NC,L] 
+RewriteRule    	^about-us/?$    			        about-us.php [NC,L] 
+RewriteRule    	^signup/?$    			       	    signup.php [NC,L] 
+RewriteRule    	^post-look-upload/?$    		    post-look-upload.php [NC,L] 
+RewriteRule    	^login-authentication/?$            login-authentication.php [NC,L]  
+
+RewriteRule    	^post-look-validate/?$              post-look-validate.php [NC,L] 
+RewriteRule    	^post-contest/?$    			    post-look-read.php [NC,L] 
+RewriteRule    	^post-look-label/?$                 post-look-label.php [NC,L] 
+RewriteRule    	^post-look-crop-rotate/?$           post-look-crop-rotate.php [NC,L] 
+
+
+RewriteRule    	^look/?$                 		    rate-look.php [NC,L]    
+RewriteRule    	^article/?$                 		    rate-article.php [NC,L]    
+
+RewriteRule    	^logout/?$                 		    logout.php [NC,L]    
+RewriteRule    	^verify/?$                   		member-email-verification.php [NC,L]  
+RewriteRule    	^feed/?$                 		    member-feed.php [NC,L]  
+
+RewriteRule    	^detail/?$            			    detail.php [NC,L]  
+
+
+RewriteRule    	^email/?$            			    email.php [NC,L]  
+RewriteRule    	^welcome/?$            			    welcome.php [NC,L]
+
+RewriteRule    email-confirmation-resend/?$            	    email-confirmation-resend.php [NC,L]
+RewriteRule    email-confirm/?$            	                email-confirm.php [NC,L]
+
+RewriteRule    terms-and-conditions/?$            	    terms-and-conditions.php [NC,L]
+
+RewriteRule    	^chat/?$            			    chat.php [NC,L]  
+RewriteRule    	^chat-list/?$            		    chat-list.php[NC,L]
+RewriteRule    ^([A-Za-z0-9-]+)/?$            	    page_viewer.php?user_name=$1&page=$2 [NC,L]    
+
+
+ErrorDocument 404 /notfound.html
+
+
+
+#Options -Indexes
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 

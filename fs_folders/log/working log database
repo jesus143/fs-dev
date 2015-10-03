@@ -1,0 +1,15 @@
+ @todo 8/3/15
+ -> add table fs_members.post_look_agree = bloean -> added
+ @todo 9/8/15
+ -> add table fs_members.blogurl = varchar 255 -> not yet added to server
+ -> add table fs_brand_category.gender = varchar 20 -> not yet added to the server
+ -> update database table ro fs_brands.b_added_date to dateTime and current timestamp -> not yet added to the server
+ -> remove gender from table fs_brands.gender because its already in the category -> note yet update to the server
+ @todo 9/9/15
+ -> create a laravel admin -> note yet update to the server
+ -> database user and reset password not yet added to the server -> note yet update to the server
+ -> create fs_brand.page varchar 50 -> note yet update to the server
+ -> create fs_brand_category.type varchar 50 -> note yet update to the server
+ -> change fs_brand_member_selected.bs_date to dateTime timestamp
+
+

@@ -1,0 +1,213 @@
+
+/**details popup thumnails */
+#details-popup-thumbnails { 
+    /* border-top: 1px solid red; */ 
+    /* padding-top: 20px; */
+}
+
+#details-popup-thumbnails-td-2 {  
+    /* border:1px solid green; */ 
+    padding: 0px !important;
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+    padding-left: 14px !important;
+} 
+
+#details-popup-thumbnails-td-2 ul {   
+
+} 
+
+#details-popup-thumbnails-td-2 ul li {   
+    float:left; 
+    /*border:1px solid red; */
+    padding-left:10px;
+} 
+
+#details-popup-thumbnails-td-2 ul li img{    
+    width:60px; 
+    height: 60px; 
+}  
+
+#details-popup-thumbnail-arrow-right { 
+    cursor: pointer;
+    padding: 5px;
+    border-right: none !important;
+    background-color: rgb(172, 172, 172);
+    color: white;
+    font-size: 20px;
+    /* padding-top: 40px; */
+}
+
+#details-popup-thumbnail-arrow-left { 
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(172, 172, 172);
+    color: white;
+    font-size: 20px;
+}
+
+#details-logo { 
+    height:30px;
+    padding-left: 20px;
+}
+
+.social-rectangle-icon { 
+   width: 99px;
+   color: rgb(206, 204, 204);
+   margin-top: 7px;
+}
+
+#details-forward-slash { 
+    color: rgb(206, 204, 204);
+}
+
+.details-popup-header-bottom {  
+    padding-top: 7px !important; 
+    border-top: 1px solid rgb(211, 209, 209); 
+    padding-bottom: 7px !important; 
+}
+
+
+.details-popup-title p {
+    font-family: 'misoLight' !important;
+    color:black;
+
+}
+
+
+
+/*new details popup */
+
+#details-popup-container {
+    width: 1024px!important; 
+    margin:  0px auto;
+    /* border: 1px solid grey; */
+}
+#details-popup-container iframe{
+    background-color:#e9eaed;
+    /*     width:1024px; */
+    width:100% !important;
+    height:100%;
+    /*border-radius: 5px;*/
+    border: 1px solid #e9eaed;
+    border:none;
+}
+#gen-popup-close {
+    position: absolute;
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 0px;
+}
+#gen-popup-close input[type='button'] {
+    float: right;
+}
+#signup-popup-container {
+    border:1px solid red;
+}
+#signup-popup-container {
+    border:1px solid green;
+}
+#signup-popup-container .row{
+    border:1px solid green;
+}
+#signup-popup-container .row div{
+    border:1px solid green;
+}
+
+#details-popup-header {
+    /* border:1px solid red; */
+    /* height: 50px; */
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    /*padding: 10px;*/
+    padding-top: 6px;
+    padding-bottom: 11px;
+}
+
+#details-popup-header table {
+    /* border:1px solid red; */
+    width:100%;
+}
+
+#details-popup-header table td:nth-child(1) {
+    border-right: 1px solid rgb(206, 204, 204);
+    padding-right:20px;
+}
+
+/*td {
+    padding-left:10px;
+    padding-right:10px;
+}*/
+
+#details-popup-header table td:nth-child(3) {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#details-popup-header table td:nth-child(4) {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#details-popup-header table td:nth-child(5) {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#details-popup-header table td:nth-child(6) {
+    /* padding-left:10px; */
+    /* padding-right:10px; */
+}
+
+#details-popup-header table td:nth-child(7) {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+#details-popup-header table td:nth-child(8) {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+#details-popup-header table td:nth-child(9) {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#details-popup-header table td:nth-child(10) {
+
+    border-left: 1px solid rgb(213, 211, 211);
+}
+
+#details-popup-header table td:nth-child(11) {
+    padding-left:10px;
+    padding-right:10px;
+    font-size:30px;
+    cursor: pointer;
+}
+
+
+#details-popup-circle {
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 122px;
+    /* padding: 4px 1px 6px 10px; */ 
+    cursor: pointer;
+    padding: 0px;
+    text-align: center;
+    padding-top: 4px !important;
+    height: 33px;
+}
+
+
+.details-popup-circle-left { 
+    margin-top: 4px;
+    margin-left: 0px;
+}
+
+.details-popup-circle-right {  
+    margin-top: 4px;
+    margin-left: -8px; 
+}
+

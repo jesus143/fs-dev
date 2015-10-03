@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+
+    <!--header meta for responsive mobile-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--css -->
+    <link rel="stylesheet" href="style.css"  >
+    <link rel="stylesheet" href="http://www.fashionsponge.com/fs_folders/Assets/css/bootstrap-theme.css" >
+    <link rel="stylesheet" href="http://www.fashionsponge.com/fs_folders/Assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="http://www.fashionsponge.com/fs_folders/Assets/css/bootstrap.css" >
+    <script src="http://www.fashionsponge.com/fs_folders/Assets/js/jquery-1.11.2.js" ></script>
+    <script src="http://www.fashionsponge.com/fs_folders/Assets/js/bootstrap.min.js" ></script>
+    <script src="http://www.fashionsponge.com/fs_folders/Assets/js/javascript.js" ></script>
+    <script src="http://www.fashionsponge.com/fs_folders/Assets/js/jquery.js" ></script>
+    <link rel="stylesheet" href="style.css" >
+
+    <!--<script src="http://www.fashionsponge.com/fs_folders/js/function_js.js" ></script>-->
+    <!--<script src="http://www.fashionsponge.com/fs_folders/js/Scrape.js" ></script>-->
+
+    <script src="../fs_folders/js/function_js.js" ></script>
+    <script src="../fs_folders/js/Scrape.js" ></script>
+
+    <!-- bootstrap customize js -->
+
+    <script src="Server.js" ></script>
+    <script src="UpdateContent.js" ></script>
+
+    <title> Server </title>
+
+</head>
+<body>
+<div class="container">
+     <!--popup-->
+     <div  class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="padding: 10px;" >
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <!--loader-->
+                <div style="text-align: center; "  id="view-log-activity-popup-loader" >
+                    <img src="http://fashionsponge.com/fs_folders/images/attr/loading%202.gif" />
+                </div>
+                <!--results-->
+                <div id="view-log-activity-popup" style="height: 400px;overflow-y: auto"  >
+                </div>
+                <div id="view-more-container" style="text-align: center" >
+                    <button type="button" class="btn btn-primary" >View More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="result" ></div>
+
+    <!--View Add Queue Status-->
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">View Add Queue Status</h3>
+        </div>
+        <div class="panel-body" id="queue-window-add-content" >
+           Content
+        </div>
+    </div>
+
+    <!--View Log Activity Status-->
+    <div class="panel panel-success">
+        <div class="panel-heading">
+
+            <!-- Large modal -->
+            <button type="button" onclick="changeContent('Added to queue', 1, '#view-log-activity-popup' )" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Added to queue</button>
+
+            <button type="button" onclick="changeContent('Received', 1, '#view-log-activity-popup' )" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Received</button>
+
+            <button type="button" onclick="changeContent('Open', 1, '#view-log-activity-popup' )" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Open</button>
+
+            <button type="button" onclick="changeContent('Remove', 1, '#view-log-activity-popup' )" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Remove</button>
+
+            <button type="button" onclick="changeContent('Signup', 1, '#view-log-activity-popup' )" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Sign up</button>
+            <!--<h3 class="panel-title">View Log Activity Status</h3>-->
+        </div>
+        <div class="panel-body" id="activity-log-window-view" >
+             Content
+        </div>
+    </div>
+
+    <!--View Send Log Status-->
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">View Send Log Status</h3>
+        </div>
+        <div class="panel-body" id="invited-window-send-email" >
+            Content
+        </div>
+    </div>
+
+    <!--Location Settings-->
+    <div class="panel panel-warning">
+        <div class="panel-heading">
+            <h3 class="panel-title">Location Settings</h3>
+        </div>
+        <div class="panel-body" id="location-settings-view" >
+             content
+        </div>
+    </div>
+
+    <!--Scrape view-->
+    <div class="panel panel-warning">
+        <div class="panel-heading">
+            <h3 class="panel-title">Scrape view</h3>
+        </div>
+        <div class="panel-body" id="lookbook-homepage-status-view" >
+            Content
+        </div>
+    </div>
+</div>
+
+</body>
+<!-- Bootstrap core JavaScript
+   ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+</html>

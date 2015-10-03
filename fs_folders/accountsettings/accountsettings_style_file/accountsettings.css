@@ -1,0 +1,307 @@
+*:focus {
+    outline: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #225B99;
+}
+
+
+
+#accountsetting-wrapper {
+    /* border: 1px solid green;*/
+    /*height: 200px;*/
+}
+#accountsetting-wrapper-container {
+    /*border: 1px solid red;*/
+    width: 1010px;
+    /*height: 100px;*/
+    margin: auto;
+}
+#accountsetting-wrapper-container-table {
+    width: 100%;
+    /*border: 1px solid #ccc;*/
+}
+#accountsetting-wrapper-container-table-header{
+}
+#accountsetting-wrapper-container-table-body{
+    /* height: 500px; */
+    background: #f6f7f8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#accountsetting-wrapper-container-table-body-left{
+    width: 260px;  /*height: 200px; */
+    /*border: 1px solid yellow; */
+    text-align: right;
+    font-family: 'MisoRegular';
+    color: #cccbc9;
+}
+#accountsetting-wrapper-container-table-body-left-tablecontainer{
+    /*border: 1px solid red;*/
+    /*width: 100%;*/
+    /*padding-left: 100px; */
+    position: relative;
+    z-index: 99;
+    background-color:white;
+    padding:10px;
+    border:1px solid #d2d0d0;
+    border-radius:5px;
+    /*margin-top: 10px;*/
+}
+#accountsetting-wrapper-container-table-body-left-tablecontainer span{
+    position: relative;
+    /*border: 1px solid red;*/
+    /*width: 100%;*/
+    /*padding-left: 100px;*/
+    float: right;
+    z-index: 100;
+    color: #95a1a9;
+}
+#accountsetting-wrapper-container-table-body-left-tablecontainer-menutitle{
+    font-size: 20px;
+    color: #d6051d;
+    padding-bottom: 50px;
+}
+#accountsetting-wrapper-container-table-body-left-tablecontainer-menutab{
+    /* font-size: 20px; */
+    cursor: pointer;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+/*#accountsetting-wrapper-container-table-body-left-tablecontainer-menutab:hover{
+    color: #d6051d;
+    font-weight: bold;
+} */
+#accountsetting-wrapper-container-table-body-left-tablecontainer-bar{
+    padding-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#accountsetting-wrapper-container-table-body-left-tablecontainer-bar div {
+    margin-top:-12px;
+    color: #ccc;
+}
+#accountsetting-wrapper-container-table-body-right{
+    width: 640px;
+    /*border: 1px solid green; */
+    /* float: right; */
+    /*height: 500px;*/
+    background-color: rgb(255, 255, 255);
+    /* margin-left: -30px; */
+    border: 1px solid rgb(210, 208, 208);
+    /* position: absolute; */
+    /* margin-left: 305px; */
+    padding: 15px;
+    border-radius: 5px;
+}
+#accountsetting-wrapper-container-table-body-right-profile {
+    padding: 0px;
+    margin: 0px;
+    /*border: 1px solid red;*/
+    /*width: 630px;*/
+    /*height: 200px;*/
+    width: 100%;
+    font-family: 'arial';
+    /*display: none;*/
+}
+
+#accountsetting-wrapper-container-table-body-right table { 
+    width:100%;
+} 
+/* new profile */
+#accountsetting-wrapper-container-table-body-right-profile-table {
+    /*border: 1px solid green;*/
+    /*width: 91.2%;*/
+    /*width: 900px*/
+    padding-top:12px;
+    display: block;
+
+}
+#accountsetting-wrapper-container-table-body-right-profile-table input[type='text']{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+#profile-firstname-field:first-letter {
+    text-transform:uppercase;
+}
+
+
+#accountsetting-wrapper-container-table-body-right-profile-table #settings { float: right;  cursor: pointer;/* border: 1px solid #000;*/ }
+.accountsetting-wrapper-container-table-body-right-profile-table-td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 650px;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table span {
+    font-size: 12px;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table div {
+    font-size: 12px;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-name {
+    border-top: 1px solid #ccc;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-name-left  { width: 20%; /*border: 1px solid yellow;*/  }
+#accountsetting-wrapper-container-table-body-right-profile-table-name-right { float: right; width: 80%; /*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+
+#accountsetting-wrapper-container-table-body-right-profile-table-about {
+    border-top: 1px solid #ccc;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-about-left{ width: 20%; /*border: 1px solid yellow;*/ }
+#accountsetting-wrapper-container-table-body-right-profile-table-about-right{ float: right; width: 80%; /*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-profile-table-birthday {
+    border-top: 1px solid #ccc;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-birthday-left{ width: 20%; /*border: 1px solid yellow;*/ }
+#accountsetting-wrapper-container-table-body-right-profile-table-birthday-right{ float: right; width: 80%; /*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-profile-table-gender {
+    border-top: 1px solid #ccc;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-gender-left{ width: 20%; /*border: 1px solid yellow;*/ }
+#accountsetting-wrapper-container-table-body-right-profile-table-gender-right{ float: right; width: 80%; /*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-profile-table-preferedstyle {
+    border-top: 1px solid #ccc;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-preferedstyle-left{ width: 20%; /*border: 1px solid yellow;*/ }
+#accountsetting-wrapper-container-table-body-right-profile-table-preferedstyle-right{ float: right; width: 80%; /*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-profile-table-work {
+    border-top: 1px solid #ccc;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-work-left{ width: 20%; /*border: 1px solid yellow;*/ }
+#accountsetting-wrapper-container-table-body-right-profile-table-work-right{ float: right; width: 80%; /*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-profile-table-occupation {
+    border-top: 1px solid #ccc;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-occupation-left{ width: 20%; /*border: 1px solid yellow;*/ }
+#accountsetting-wrapper-container-table-body-right-profile-table-occupation-right{ float: right; width: 80%; /*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-profile-table-sprcialty {
+    border-top: 1px solid #ccc;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-sprcialty-left{ width: 20%; /*border: 1px solid yellow;*/ }
+#accountsetting-wrapper-container-table-body-right-profile-table-sprcialty-right{ float: right; width: 80%; /*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-profile-table-education {
+    border-top: 1px solid #ccc;
+}
+#education-right-ul { /*margin-left: -40px;*/  padding: 0px; margin: 0px; /*border-top: 1px solid #000;*/ }
+#education-right-ul li {  /*width: 19.5%;*/ /*border: 1px solid #000;*/ list-style: none; /*float: left;*/ padding-bottom: 10px; }
+
+#accountsetting-wrapper-container-table-body-right-profile-table-education-left{ width: 20%; /*border: 1px solid yellow;*/ }
+#accountsetting-wrapper-container-table-body-right-profile-table-education-right{  float: right; width: 80%; /*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-profile-table-education-right input { width: 300px; height: 30px; color: #ccc; padding: 2%;}
+#accountsetting-wrapper-container-table-body-right-profile-table-email {
+    border-top: 1px solid #ccc;
+}
+
+#accountsetting-wrapper-container-table-body-right-profile-table-email-left{ width: 20%; /*border: 1px solid yellow;*/ }
+#accountsetting-wrapper-container-table-body-right-profile-table-email-right{ float: right; width: 80%; /*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-profile-table-websiteorblog {
+    border-top: 1px solid #ccc;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-websiteorblog-left{ width: 20%; /*border: 1px solid yellow;*/ }
+#accountsetting-wrapper-container-table-body-right-profile-table-websiteorblog-right{ float: right; width: 80%; /*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-profile-table-location {
+    border-top: 1px solid #ccc;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-location ul { padding: 0px; margin: 0px; }
+#accountsetting-wrapper-container-table-body-right-profile-table-location ul li {  /*width: 19.5%;*/ /*border: 1px solid #000;*/ list-style: none; /*float: left;*/ }
+
+#accountsetting-wrapper-container-table-body-right-profile-table-location-left{ width: 20%; /*border: 1px solid yellow;*/ }
+#accountsetting-wrapper-container-table-body-right-profile-table-location-right{ float: right; width: 80%; /*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-profile-table-avatar {
+    border-top: 1px solid #ccc;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-avatar ul { padding: 0px; margin: 0px; }
+#accountsetting-wrapper-container-table-body-right-profile-table-avatar ul li {  /*width: 19.5%;*/ /*border: 1px solid #000;*/ list-style: none; float: left; }
+/*#accountsetting-wrapper-container-table-body-right-profile-table-avatar ul li img { width: 200px; height: 200px; }*/
+
+#accountsetting-wrapper-container-table-body-right-profile-table-avatar-left{ width: 19.5%; /*border: 1px solid yellow;*/ }
+#accountsetting-wrapper-container-table-body-right-profile-table-avatar-center img {
+/* width: 40%;*/  /*border: 1px solid yellow;*/ width: 90px;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-avatar-right{ padding-left: 40px; /* float: right;*/ /*width: 40%; *//*border: 1px solid red;*/ color: #d6051d; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-profile-table-avatar-right td { padding-bottom: 5px;  }
+#avatar-right-uploadprofile {  background-color: #d6051d; border: 1px solid #000; width: 140px; border:none; color: #fff; height:40px; border-radius: 5px;  ;
+    cursor: pointer;
+}
+#avatar-right-delete        {  background-color: #ccc; border: 1px solid #ccc;   width: 140px; border:none; color: #fff; height:40px; border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#accountsetting-wrapper-container-table-body-right-profile-table-social-accounts {
+    border-top: 1px solid #ccc;
+}
+#accountsetting-wrapper-container-table-body-right-profile-table-contacts {
+    border-top: 1px solid #ccc;
+}
+
+
+
+
+/* new brand */
+#accountsetting-wrapper-container-table-body-right-select_brands {
+    display: block;
+}
+#accountsetting-wrapper-container-table-body-right-select_brands-table {
+    /*border: 1px solid green;*/
+    /*width: 91.2%;*/
+    /*padding-top:12px; */
+    /*width: 100%;*/
+    width: 700px;
+
+}
+#accountsetting-wrapper-container-table-body-right-select_brands-table-title { padding-bottom: 50px; }
+#accountsetting-wrapper-container-table-body-right-select_brands-table-numbers { padding-bottom: 20px; font-weight: bold; }
+#accountsetting-wrapper-container-table-body-right-select_brands-table-numbers table { }
+#accountsetting-wrapper-container-table-body-right-select_brands-table-numbers table td { font-weight: bold;  }
+#select_brands-table-numbers-arrow-left { color: #d6051d }
+#select_brands-table-numbers-arrow-right { color: #d6051d }
+#accountsetting-wrapper-container-table-body-right-select_brands-table-thumnails { padding-bottom: 20px; }
+#accountsetting-wrapper-container-table-body-right-select_brands-table-thumnails table {  }
+#accountsetting-wrapper-container-table-body-right-select_brands-table-thumnails table td { padding: 5px 15px 5px 0px; }
+#accountsetting-wrapper-container-table-body-right-select_brands-table-thumnails table td img { height:115px; width: 115px; cursor: pointer; }
+#accountsetting-wrapper-container-table-body-right-select_brands-table-thumnails table td img:hover { }
+#accountsetting-wrapper-container-table-body-right-select_brands-table-Save { padding-bottom: 15px; }
+/* new suggested memebr */
+#accountsetting-wrapper-container-table-body-right-suggested_members { display: block; }
+#suggested-member-table-container {  width:643px; }
+#suggested-member { margin: 0px; padding: 0px;   }
+#suggested-member li{  list-style: none; border: 1px solid red;   float: left;  }
+/* new invite friends */
+#accountsetting-wrapper-container-table-body-right-invite_friends {
+    display: block;
+}
+/* new notification */
+#accountsetting-wrapper-container-table-body-right-notification {
+    display: block;
+}
+/* new preference */
+#accountsetting-wrapper-container-table-body-right-preferences {
+    display: block;
+}
+#accountsetting-wrapper-container-table-footer {
+    padding-left: 7%;
+}
+
+
+
+
+
+
+
+/* new general css */
+.profile-update{ width:60px; padding:1%; height:30px; background-color:#d6051d; border:none; color:#fff;    font-weight:bold; cursor:pointer; border-radius:5px;  border:1px solid #ccc;  }
+.profile-cancel { width:60px; padding:1%; height:30px; background-color:#e6e5e3; border:none; color:#d6051d; font-weight:bold; cursor:pointer; border-radius:5px;  border:1px solid #ccc;  }
+.profile-select {/* width: 50%;*/ padding: 2%; color: #d6051d;font-weight: bold; -webkit-appearance: auto; }
+#profile-select option { color: #1a386a; font-weight: bold; }
+#account-settings-next {  }
+#socialconnect-table { }
+#socialconnect-table a {   }
+#socila-links { color:#d6051d; font-size: 12px; }
+.profile-message-error-container { position: relative; word-wrap: break-word;  border:1px solid red; background-color:#f2d5d6;margin-top:10px; padding:5px; width:434px; text-align:left;   }
+.profile-display-container {  position: relative; border:1px solid none; width:443px; word-wrap: break-word; }
+.profile-display-container span {  }
+/* end general css */

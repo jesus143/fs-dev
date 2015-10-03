@@ -1,0 +1,91 @@
+ 
+	body{
+
+	}
+	.cotainer{
+		width: 1011.5px;
+		/*border: 1px solid red;*/
+	}
+	.wrapper{
+		position: absolute;
+		text-align:center;
+		width:1009px; 
+		border:1px solid #000;
+		/*height: 200px;*/
+	}
+	.upload_area{
+		/*position: fixed;*/
+		width:250px;
+		border-right: 1px solid #ffffff;
+		float: left;
+		height: 500px;
+		padding: 10px;
+	}
+	.uploaded_area_view{
+		position: relative;
+		width: 700px;
+		border-left: 1px solid #000;
+		float: right;
+		/*height: 500px;*/
+		padding: 10px;
+	}
+	.title_upload{
+		background-color: #ccc;
+		height: 20px;
+		padding: 10px;
+		text-align: center;
+		border: 2px solid #000;
+		width: 240px;
+	}
+	.title_upload a{
+		font-size: 20px;
+		/*border: 5px solid #000;*/
+
+	}
+	.form{
+		border: 2px solid #000;
+		padding: 10px;
+		background-color: #ddd;
+		width: 240px;
+	}
+	.form textarea{
+		resize:none;
+	}
+	.uploaded_area_view table td {
+		padding: 10px; 
+		border: 1px solid #000;
+	input{
+		border: 2px solid #000;
+	}
+ 
+ 
+	#a{
+		color: #000;
+		font-size: 13px;
+		font-weight: bold;
+	}
+	#a1{
+		font-size: 12px;
+		font-style: italic;
+	}
+ 
+		.head {
+			width: 100%;
+			background-color: #000;
+			height: 50px;
+
+		}	
+		.head a { 
+			color: white;
+			float: right;
+			padding: 20px;
+		}
+		.head a:hover { 
+			color: orange;
+			float: right;
+			padding: 20px;
+
+		}		
+		a{
+			text-decoration: none;
+		}

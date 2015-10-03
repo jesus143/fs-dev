@@ -1,0 +1,1 @@
+//alert('javscript is ready');

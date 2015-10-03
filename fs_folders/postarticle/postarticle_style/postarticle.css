@@ -1,0 +1,111 @@
+ /* MisoRegular */
+ /* MisoLight */
+ /* MisoBold */
+
+
+body { /*font-family: 'arial'; */ border: 0px; padding: 0px; margin: 0px; font-family: 'arial'; letter-spacing: 2px;  }
+#body_table { margin:auto; }
+
+	
+	/*#article_url_field { border-radius: 5px; height: 30px; font-size: 20px; font-family: 'arial' ; border: none; padding-left: 5px;   padding-right: 20px; width:890px; }*/
+	#article_cancel , #article_send_url ,#article_post_now { width: 140px; height: 50px; background-color: #b11c22;  border-radius: 5px; color: white;  font-weight: bold; font-size: 15px; cursor: pointer; }
+	#article_post_now { margin-left: 200px; }
+
+	/*#article_send_url { width: 140px; height: 50px; background-color: red  }*/
+
+#sya_container { margin: auto;  position: relative; border: 1px solid #ccc ; background-color: #f5f4f1; height: auto; width: 981px;   padding:12px; }
+	#sya_headtext { font-size: 20px; font-weight: bold; font-family: 'arial' }
+
+
+
+
+
+	#img_table { width: 100%; }
+	#img_table td { border: 1px solid #000; }
+	#img_div img {  /*border: 1px solid #000;*/ cursor: pointer; /*margin: auto;*/ }
+#pa_selected_article_dc { border: 2px solid #000; margin: auto; margin-top: 30px; padding: 20px; height: 300px;  width: 700px; }
+	#left_content { position: relative; float: right; margin-top: -215px; width: 450px; }
+		 
+ 
+		#article_desc { width: 99.9%;  height: 100px; resize:none; }
+	#footer_selected_article { width: 100%; padding-top: 20px; }
+	 
+		#article_post { position: relative; margin-top: 10px; padding: 10px 40px 10px 40px; background-color: #000; border: none; color: #fff; font-weight: bold; font-size: 20px; cursor: pointer; }
+#article_res li { list-style: none  }
+ 
+#article_total_result span { font-size: 20px; font-weight: bold; font-style: italic; }
+#line {  border: 1px solid  #cccbc9;  margin-top: 3px; }
+ 
+#table_wrapper_body { margin: auto; }
+#title_field {  padding-bottom: 40px;  }
+	#t1 { color: red; font-family: "MisoLight"; font-size: 50px; }
+	#d1 { color: blue; font-family: "MisoRegular"; font-size: 15px;  }
+
+#search_field{ padding-bottom: 40px; } 
+#body_content { z-index: 99; width: 100%; border: 1px solid #000; width: 100%; border-radius: 5px; background: #eae8e9;  }      
+	#res_container {  /*border: 1px solid red;*/ /*height: 200px;*/ /*margin-left: 10px;*/}
+		#res_container img { border: 1px solid #ccc; border-radius: 5px; }
+		#res_container li {float: left; /*padding: 7px;*/  list-style: none; /*border: 2px solid yellow;*/  /*height: 200px; margin-left: -10px; */ }  
+			
+			/*#li_res1 { border: 1px solid green; }
+			#li_res2 { border: 1px solid yellow; }
+			#li_res3 { border: 1px solid red; } */
+
+			#home_res1 { /*border: 1px solid green;*/   width:285px;  padding-right:20px;  }
+				#home_res1 img { cursor: pointer;  /*padding-bottom: 40px;*/ width:280px;  /*border:5px solid #000*/ } 
+			#home_res2 { /*border: 1px solid yellow;*/  width:285px;  padding-right:20px;  }
+				#home_res2 img { cursor: pointer;  /*padding-bottom: 40px;*/ width:280px;  /*border:5px solid #000*/  }
+			#home_res3 { /*border: 1px solid red;*/     width:285px;}  
+				#home_res3 img { cursor: pointer;  /*padding-bottom: 40px;*/ width:280px;  /*border:5px solid #000*/ }
+ 		
+ 		/*#res_container img:hover {  border:5px solid #425b80 }*/
+
+
+ 		
+		#article_left_content { position: relative; height: 400px; width:440px; border: 1px solid red;  padding-top: 40px;   }
+		 	#left_table {  width: 100%; }
+		 	#article_img_res { margin-left: 80px;  }
+			#article_img_res  img {  width: 285px;  }
+			#article_img_prev img { position: absolute; width: 50px; margin-top:150px; cursor: pointer; }
+			#article_img_next img { position: relative; width: 50px; margin-top:150px; cursor: pointer;  float: right;}
+		#article_right_content { position:  relative;   height: 400px; width:455px; border: 1px solid green; padding-top: 40px; float: right;  }
+ 			#article_video_res  { margin-left: 50px; }
+ 			#article_video_res  iframe {    }
+ 			#article_video_next img {  position: relative; width: 50px; margin-top:150px; cursor: pointer;  float: right; }
+			#article_video_prev img {  position: absolute; width: 50px; margin-top:150px; cursor: pointer;  }
+
+
+
+
+
+
+
+#article_description_title_c { /*border:1px solid red;*/ width: 100%; /*text-align: center;*/ display: block;  }
+	#article_description_title_c span { color:#425b80; } 
+
+	#line_second { border: 1px solid #ccc; margin-top: 5px;   }
+	#article_description_title_t {  width: 100%;  }
+		#article_text_title { }
+		#article_title { width: 95.2%;  color:#425b80; padding-left: 20px; padding-right: 20px; font-size: 15px; font-family: 'arial'; letter-spacing: 2px; text-align: center; height: 20px; border-radius:2px;border:none; }
+		#article_description { width: 97.2%; resize:none; padding-left: 20px; height: 100px; letter-spacing: 2px; color:#425b80; padding-top: 20px;  font-size: 15px; font-family: 'arial'; border-radius: 2px;border:none;   }
+		#article_tag_cat_t {width: 100%;  }
+		#article_tags {width: 98%; border-radius:2px; border:none; color:#425b80;  }
+		#article_category { width: 99%;  color: #b11c22;  border-radius:2px; border:none;  }
+
+
+
+
+
+	#sya_container input[type='text'] {  /* width: 70%;*/ /*height: 30px; font-size: 20px; font-family: 'arial' ; border: none; padding-left: 20px; padding-right: 20px;*/ }
+	#sya_container input[type='submit'] {  /*width: 100px;*/  }
+	#sya_container input[type='button'] {  /*width: 100px;*/ }
+
+	#hidden { visibility: hidden;}
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,359 @@
+
+#signup-container-responsive {
+    background-color:white;
+    /*padding:0px;*/
+}
+#signup-container-responsive div {
+
+}
+#title-1 {
+    line-height: 1;
+    color: #313b45;
+}
+#header-right-form {
+    width: 100%;
+    margin: 0px auto;
+}
+
+/*header menu with logo and login*/
+#signup-header-menu{
+    border-bottom:1px solid white;
+    padding-top:20px;
+    background-color:#1a4177;
+    padding:10px;
+}
+#signup-header-login {
+    float:right;
+}
+#signup-header-login img {
+    height:30px;
+}
+#signup-header-menu div a img {
+    foat:right;
+}
+#signup-header-menu div a span {
+    float:right;
+    font-family:arial;
+    border:2px solid #284372;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:7px;
+    padding-top:7px;
+    text-align:center;
+    text-transform: uppercase;
+}
+#signup-header-image-signup-fields{
+    border:1px solid red;
+}
+
+
+/*slide show and right sign up fields */
+#carousel-container {
+    /*width:100%*/
+}
+
+/*new*/
+#top-signup-field-container {
+    border:1px solid none;
+    padding-left:0px;
+    padding-right: 0px;
+    margin: 0px auto;
+    width: 100%;
+
+}
+#sign-up-field-container {
+    width: 97.5%
+    border:1px solid none;
+    margin: 0px auto;
+    text-align: center;
+}
+#sign-up-field-container p {
+    width: 90%;
+    text-align: center;
+    margin: 0px auto !important;
+    color: #9a9a9a;
+
+}
+/*new*/
+
+
+#top-signup-fields {
+    width: 91%;
+}
+
+.input-group {
+    margin: 0px auto !important;
+    border:1px solid none;
+}
+.input-group input {
+    border:1px solid #ececec;
+    background-color: #f9f9f9;
+    padding:26px;
+    text-align: center;
+    border-radius: 0px !important;
+    -moz-box-shadow:    inset 0 0 20px #FFFFFF;
+    -webkit-box-shadow: inset 0 0 10px #FFFFFF;
+    box-shadow:         inset 0 0 10px #FFFFFF;
+}
+#sign-up-first-field {
+    border-radius: 5px 5px 0px 0px !important
+}
+#signup-button-submit {
+    padding:10px;width:100%;  border-radius: 0px 0px 5px 5px;
+    background-color: #b92331 !important;
+}
+
+
+
+
+
+
+
+
+/*four reasons*/
+
+
+
+
+#blue-container-1 {
+    padding:20px 5px 20px 5px !important;
+    background-color: #2e4072;
+    width:100%;
+    margin: 0px auto !important;
+    color:#FFFFFF;
+    text-align: center;
+    line-height: normal
+}
+
+
+
+#blue-container-2 {
+    padding:20px 5px 20px 5px !important;
+    background-color: #2e4072;
+    width:100%;
+    margin: 0px auto !important;
+    color:#FFFFFF;
+    text-align: center;
+    line-height: normal;
+}
+#private-signup-title-2 {
+    font-family: 'misoLight';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#signup-body-four-purpose {
+    margin-top:30px;
+}
+#signup-body-four-purpose div {
+    margin:0px;
+    padding:0px;
+}
+#signup-body-four-purpose div#col1 , #signup-body-four-purpose div#col3  {
+    background-color:#e6f3fb;
+}
+#signup-body-four-purpose div#col2 , #signup-body-four-purpose div#col4  {
+    background-color:#fffff;
+}
+
+
+
+
+#signup-body-four-purpose div#col1 #container, #signup-body-four-purpose div#col3 #container {
+    background-color:#e6f3fb;
+    width:90%;margin: 0px auto;
+    border:1px solid none !important;
+    text-align: center;
+    padding:100px 0px 100px 0px !important;
+    height: 460px;
+}
+#signup-body-four-purpose div#col2 #container, #signup-body-four-purpose div#col4 #container {
+    background-color:#FFFFF;
+    width:90%;margin: 0px auto;
+    border:1px solid none;
+    text-align: center;
+    padding:100px 0px 100px 0px !important;
+    height: 460px;
+}
+
+
+
+
+#signup-body-reasons{
+    padding-top:30px;
+    width:99%;
+    margin:auto;
+}
+#signup-body-reasons .jumbotron {
+    background-color:#fff;
+    border:1px solid  #e2e2df;
+    border-radius:0px;
+}
+
+
+/* frequently asked questions*/
+#frequently-asked-container {
+    width:90%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#title-2 {
+    color:#b82132;
+    font-family: misolight
+}
+
+#title-2 p {
+
+}
+
+
+
+/*footer sign up field*/
+
+
+#footer-signup-field {
+    margin: 0px;
+    background-color: #2e4072;
+    padding: 20px 30px 20px 30px;
+    border-radius: 0px;
+}
+
+
+
+
+
+/*width*/
+
+
+/*.form-control {*/
+    /*border:1px solid green !important;*/
+    /*width: 90%!important;*/
+/*}*/
+/*.btn {*/
+    /*border:1px solid yellow !important;*/
+    /*width: 90%!important;*/
+/*}*/
+/*#carousel-container {*/
+    /*width: 90%;*/
+    /*border: 1px solid yellow;*/
+/*}*/
+
+
+
+/*media font size*/
+
+
+
+
+
+
+body input[type='text'], body input[type='button'], #desc, #signup-button-submit {
+    font-size: 133.65%;
+    font-weight: normal !important;
+    text-align: center;
+
+}
+#title-1 {
+    margin: 0px auto;
+    text-align: center;
+    font-size: 250% !important;
+    width:90%;
+    padding: 0px 10px 0px 10px;
+}
+.desc-signup {
+    padding: 0px 10px 0px 10px;
+}
+#title-2, #private-signup-title-2 {
+    font-size: 260% !important;
+}
+#blue-container-1, #blue-container-2 {
+    font-size: 260% !important;
+}
+
+
+
+
+
+
+
+/*Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    /*Styles */
+}
+
+/*Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+    /*Styles */
+}
+
+/*Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+    /*Styles */
+}
+
+/*iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    /*Styles */
+
+
+
+
+
+
+
+
+}
+
+/*iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+}
+
+/*iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+
+/*Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    /*Styles */
+}
+
+/*Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    /*Styles */
+}
+
+/*iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /*Styles */
+}

@@ -1,0 +1,14 @@
+#iframeDiv {  
+ 	width: 100%; 
+}
+
+#iframeDiv iframe {  
+	width: 100%; 
+	height: 100%; 	
+} 
+
+.fc-event-skin {	
+	border-color: #121415 !important;     /* default BORDER color */
+	background-color: #2E94D2 !important; /* default BACKGROUND color */
+	color: White !important ;            /* default TEXT color */ 
+}

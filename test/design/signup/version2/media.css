@@ -1,0 +1,71 @@
+body {
+    color: #284372;
+    /*background-image: url("../../../fs_folders/images/signup/bg.jpg");*/
+    background-color: #f9f9f9;
+    /*background-color: #FFFFFF;*/
+    /*background-color: #000000;*/
+    padding:0px;
+}
+
+#next-line {
+    clear: both;
+    height:25px;
+    width:2px;
+    /*border:1px solid yellow;*/
+}
+
+/* popup */
+
+    #container-popup-about #title-1-about,
+    #container-popup-future-list #title-1-feature-list {
+        font-weight: bold;
+
+    }
+
+    #container-popup-about p, #container-popup-about div, #container-popup-about span,
+    #container-popup-future-list p, #container-popup-future-list div, #container-popup-future-list   span, #container-popup-future-list ul, #container-popup-future-list ul li {
+        color: #284372;
+        font-family: arial, sans-serif;
+    }
+
+    #container-popup-about p,
+    #container-popup-future-list p {
+        font-size: 120%;
+    }
+
+    #container-popup-about div,
+    #container-popup-future-list div {
+        padding: 10px 0px 10px 0px;
+        font-size: 125%;
+    }
+
+    #container-popup-about span
+    #container-popup-future-list span {
+
+    }
+
+    #container-popup-about ul,
+    #container-popup-future-list ul {
+        margin: 0px;
+        padding:0px 0px 0px 20px;
+    }
+
+    #container-popup-about ul li,
+    #container-popup-future-list ul li {
+        list-style: bullet;
+        padding: 5px;
+    }
+
+    #important-red {
+        color:red !important;
+    }
+
+
+
+    #signup-button-submit {
+        padding:11px;width:100%;  border-radius: 0px 0px 5px 5px;
+        background-color: #b82132 !important;
+    }
+
+
+

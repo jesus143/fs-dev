@@ -1,0 +1,121 @@
+  		
+.main_container li {  list-style: none;  } 
+.main_comment_container{  font-family:Arial; /*background-color:#edeee9;  border: 1px solid green; */margin-left: -40px;}
+.comment_container{  /*position: relative;*/ /*border: 1px solid #000;*/ /*color: red;*/  	 /*font:verdana 0.8em; */ }
+.comment_container .img{  position: absolute; /*border: 1px solid red;*/ height: 50px; width: 50px;  }  
+.img img{ 	 /*border: 1px solid yellow;*/ height: 50px; width: 50px;} 
+ .comment_body_container{  /*border: 1px solid green;*/   width: 570px; /*height: 150px;*/ float: right; padding-right: 20px; margin-left: 64px;} 
+.comment_body_container span {  /*font-style: italic;*/ font-size: 11px;}
+.comment{  color: #2c5cab; /*border: 1px solid yellow;*/}
+.rate_Start {  color: red; /*border: 1px solid #000;*/ /*color: green;*/}
+#full_name {  /*font-weight: bold;*/ /*color: blue;*/}
+.blue { color: #284372;/*font-size: 12px;*/ }
+.red_bold{ color: #b01e23; font-weight: bold; font-size: 12px; }    
+.blue_bold{ color: #284372; font-weight: bold;	}    
+.rating_view img{ height: 13px;}
+
+#comment_time{ font-size:11px; color: #b7b7b5;font-weight: bold;/*font-style: italic;*/}
+
+.img_like{ /*border:1px solid #000;*/height:13px;cursor: pointer;}  
+
+.img_flag{ height:20px;}
+
+#add_your_commet { font-size: 12px; }
+
+.comment_box { 
+	height: 100px;width: 400px; resize:none; border: 1px solid #ccc; z-index: 106; 
+}
+
+.post_comment { /*background-color: red ;*/}
+
+.invisible { visibility: hidden;  
+}     
+
+#tb_comment_field1 { /*border: 1px solid #000;*/ margin-left: 0px; z-index: 105;}
+
+.comment_loader { margin-left: 0px;}
+
+.rating , #percentage , #full_name , .profile_pic{ cursor: pointer;}
+
+
+.comment_footer_Container { 
+	/*border: 1px solid red;*/
+	width: 100%;
+}
+
+.comment_footer_Container span { 
+	font-size:12px !important;
+} 
+
+
+
+.red_bold {
+	font-size: 11px;
+}  
+
+.comment_time{ 
+	font-size: 14px;
+}
+
+/*#rhr { margin-top:5px;width: 567px;float: left;color: #000;height: 200px;border-top: 1px solid #000; /*visibility: hidden;  display: block; }*/
+#hr {  
+	margin-top:10px;
+	width: 608px;
+	float: left;
+	color: #000; 
+	visibility: hidden; /*height: 200px;*/border-top: 1px solid #000; /*visibility: hidden;  display: none; */}
+  
+/*reply comment css*/
+   
+.rcomment_container  {  list-style: none; /* border:1px solid green; */width: 70px }
+.profile_pic {  /*position: absolute;*/ /*border: 1px solid red;*/ height: 50px; width: 50px;  }  
+.rcomment {  /*border:1px solid red;*/ width: 410px;  color: #2c5cab; }
+.r comment_box { } 
+.rcomment_time { }  
+.rcomment_footer_Container  { } 
+.rcomment_body_container{/*  border: 1px solid green;*/   width: 548px; /*height: 150px;*/ float: right; padding-right:2px; margin-left: 64px;} 
+.rcomment_body_container span {  /*font-style: italic;*/ font-size: 11px;}  
+.rcomment_container .img{  position: absolute; /*border: 1px solid red;*/ height: 50px; width: 50px;  }  
+.img img{ 	 /*border: 1px solid yellow; */height: 50px; width: 50px;}   
+#viewReplies , #comment_loaded ,  .totalReplies { font-family:Arial; font-size: 12px; cursor: pointer;  color: #af1d22; font-weight: bold;  }
+      
+.replyLoader { height: 20px;  width: 50px; margin-top: -20px; }  
+#replyViewMoreContainer { /* border: 1px solid #000;*/  padding:20px 5px 5px 0px; /*background-color: white;*/ }
+   /*sorting */
+#replied_name { cursor: pointer; }  
+#sortingContainer { 
+
+	border: 1px solid #000;
+	background-color: #ccc;
+	width: 200px;
+	/*float: left;*/
+	/*margin-left: 44px;	 */
+}  
+#sortings { 
+
+	width: 100%;
+}
+
+
+
+
+	/* new look comment display  */
+	#TA_main_comment_reply_td { }
+		#TA_main_comment_reply_div , #TA_main_comment_edit_div , #TA_main_comment_flag_div, #TA_main_comment_reply_div_reply , #TA_main_comment_edit_div_reply , #TA_main_comment_flag_div_reply{ position: relative; display: none; /*border: 1px solid red; */width: 350px; margin-left: 65px; margin-top: 10px; }
+			#TA_main_comment_reply , #TA_main_comment_edit , #TA_main_comment_flag , #TA_main_comment_reply_reply, #TA_main_comment_edit_reply, #TA_main_comment_flag_reply { position: relative; /*resize:none;*/ width: 100%; height: 100px; /* padding-top: 20px;*/  border: 1px solid #ccc; overflow: hidden;  }
+			#TA_main_comment_reply_button , #TA_main_comment_edit_button , #TA_main_comment_flag_button , #TA_main_comment_reply_button_reply, #TA_main_comment_edit_button_reply, #TA_main_comment_flag_button_reply { padding-right: 30px; padding-left: 30px; border-radius: 5px; font-size: 10px; margin-top: 10px;   } 
+ 
+
+
+ 
+ 	/* new flags */	
+ 		#flagTable { /*border: 1px solid #000;*/ width: 100%;  }
+
+ 			#flagTable1{	width: 100%;  }
+ 				#flagTitle1 { font-family: 'Arial'; font-size: 18px; font-weight: bold; }
+ 					#flagTitle1Td { padding-bottom: 10px; padding-top: 5px }
+ 				#flagTable2{	width: 100%; padding-bottom:20px; }
+					#flagTitle2 { font-family: 'Arial'; font-size: 12px; font-weight: bold;}
+			#flagged { width: 100%;  height: auto; }
+			#flagged table { width: 100%; text-align: center; padding: 10px;}
+ 	/* end flags */

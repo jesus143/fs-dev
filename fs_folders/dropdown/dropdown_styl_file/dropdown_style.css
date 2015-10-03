@@ -1,0 +1,38 @@
+ 
+
+
+
+ /*new info /contact us/ select a topic */
+	 
+		#ocpstyle{ position: relative;    } 
+		#ocpstyle table {font-weight: bold; /*width: 270px;*/ background-color:#fff; height:30px   }  /* change width for table container */
+		#ocpstyle table td {  } 
+		#ocpstyle #DDcontainer_occupation { z-index: 200; position: absolute; padding-top: 5px;  /*height: 00px;*/ width: 98%; margin-top: -3px; border-radius: 5px; border: 2px solid #ccc;  overflow: visible; background-color: #1a386a; overflow:auto; overflow: hidden; cursor: pointer;  } /* change width and hight for the result container */								
+		#ocpstyle ul{ color: #1a386a; position: relative; background-color:#fff; margin-top: -0px; font-size: 12px; font-family: 'arial'   } 
+		#ocpstyle ul li{ list-style: none;cursor: pointer; margin-left:-40px; padding: 5px 10px 5px 20px; width: 104%; } 
+		#ocpstyle ul li:hover{ background-color: #1a386a; color: white; width: 120%  }  
+		#ocpstyle img {padding-top: 5px; cursor: pointer;}
+		#td_selected { padding-left: 4px;  } 
+		#os { color: #a11921; font-size: 12px; font-family: 'arial';/* padding-left: 7px;*/  }
+		#title_occu {padding-left: 20px; color: #fff; font-family: 'arial'; font-size: 13px; }
+		#DDcontainer_occupation, #os_input {  display: none; }
+		#bridge_occu {width: 30px; }
+		#bridge_occu img { float: right; padding-right: 15px; }
+
+		#dropdown_field {background-color: #fff; position: absolute; margin-top: -2px; }
+ /*end info /contact us/ select a topic */
+ 
+ 
+  
+
+  
+
+
+
+
+
+
+
+
+ 
+

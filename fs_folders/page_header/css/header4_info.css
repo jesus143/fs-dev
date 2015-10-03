@@ -1,0 +1,44 @@
+
+
+
+
+#info-header-container { /*border: 1px solid red;*/ width: 100%; z-index: 101; }
+#info-header-big-img { position: absolute; z-index: 100; display: block; width: 1010px;  }
+
+
+#signOut_header_top { background-color: #1b396d; padding-left: 50px; padding-right: 50px; height: 75px;  } 
+
+	#header_top_menu {/* padding-left: 30px;*/ width: 100%; /*padding-right: 25px;*/ padding-top: 10px; padding-bottom: 8px; z-index: 101;}	 
+ 	#httdt3 {position: relative; z-index: 101; padding-left: 3px;  }
+	#fs-logo {  }
+		 
+ 
+
+	#htd1 { width: 270px;  }
+		#htd1 table { }  
+			/*#htd1 table img { margin-left: 52px;  padding-top: 7px; padding-left: 5px; }  */
+			/*#text_logo {  font-family:'MisoRegular'; font-size: 16px; float: left; /*margin-left: 63px; margin-top: -2px; word-spacing: 5px;   }*/ 
+	#logo_td { /*padding-left: 50px;*/ }
+		#sign_in_beta_td {  padding-top: 15px;  font-family:'MisoBold'; word-spacing: 5px;  color: #fff; /* padding-left: 5px   */ }
+		#sign_in_beta_td a { text-decoration: none;  margin-top: -13px;  color: #fff;  opacity: 0.6;  margin-left: 10px; /*opacity: 0.7; *//*; font-size: 5px;*/ position: absolute; }
+		#sign_in_beta_td a span { font-size: 10px; }	  
+	#header_menu { width: 100%;  } 
+		#header_menu a {position: relative; font-family:'arial'; font-weight: bold; font-size: 12px; text-decoration: none; z-index: 101; }
+	 
+		#home a {position: relative; /*color: #c51d20;*/ color: #fff;  z-index: 101;     }
+		#participate a { color: white;  }
+		#comunity a { color: white;  }     
+		#info a { color: #c51d20; }
+			#home a:hover { color: #c51d20;   }
+			#participate a:hover { color: #c51d20;  }
+			#comunity a:hover { color: #c51d20;  }  
+			#info a:hover { color: #c51d20; }  
+	#header_search_field { position: relative; float: right;  z-index: 101; }
+		/*#search  { float: left; border: none; background-color: #fff; width: 200px;  height: 25px; color: white;  font-family:'arial'; font-weight: bold; font-size: 12px; padding-right: 20px; padding-left: 10px; }  */
+ 		#search  { position: relative; z-index: 100; background-color: rgba(255,255,255,0.1);  padding-left: 10px ; padding-right: 20px; float: left; border: none;  width: 200px;  height: 24px; color: white;  font-family:'arial'; font-weight: bold; font-size: 12px; }  
+		#scope  {  float: left; border: none; height: 10px; margin-left: -20px; width:10px;  } 
+#info-header-height {  height: 200px; }
+
+
+
+

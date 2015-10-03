@@ -1,0 +1,72 @@
+body 
+{
+	background-color:#b7b7b7; 
+}
+#wrapper 
+{ 	
+	position: relative;
+	border: 2px solid #000;
+	width: 990px;
+	margin: auto; 
+	/*padding: 10px; */
+}
+#container 
+{ 
+}
+#leftPhoto  
+{ 
+	
+	border: 1px solid red;
+	width: 450px;
+	height: 500px;
+}
+#leftPhoto  img
+{ 
+	float: left;
+	width: 100%;
+	height:350px;
+}
+
+#leftPhoto  table
+{ 
+}
+#leftPhoto  table td
+{ 
+	text-align: center;
+	width: 300px;
+}
+
+
+
+
+#rightPhoto 
+{ 	
+	float: right;
+	border: 1px solid blue;
+	width: 450px;
+	height: 500px;
+}
+#rightPhoto  img
+{ 
+	float: left;
+	width: 100%;
+	height:350px;
+}
+
+#rightPhoto  table
+{ 
+}
+#rightPhoto  table td
+{ 
+	text-align: center;
+	width: 300px;
+}
+
+
+
+
+#title  
+{ 
+	color: red; 
+	font-weight: bold;
+}

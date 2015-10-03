@@ -1,0 +1,7 @@
+#list-group-item {
+    cursor: pointer;
+}
+#invited-window-send-email {
+    height: 200px;
+    overflow-y: scroll;
+}

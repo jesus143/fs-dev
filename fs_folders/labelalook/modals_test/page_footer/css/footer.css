@@ -1,0 +1,78 @@
+
+ /* MisoRegular */
+ /* MisoLight */
+ /* MisoBold */
+
+
+#footer_td {/* background-color: #e5e3e4;*/ }
+	
+	/*#footer_wide_bg { display: block;  position: absolute; z-index: 99; background-color:#e5e3e4; width: 20000px; margin-left: -1000%; height: 400px;   }*/
+	#footer_wide_bg { display: block;  position: absolute; z-index: 99; background-color:#e5e3e4; width: 1008px; margin-left: -72px;  height: 400px;   }
+	
+
+	#body_footer { position: absolute; z-index: 100; /* border: 1px solid #000;*/  width: 895px;/* margin: auto;*/ height: auto;  background-color:#e5e3e4; padding-top: 30px; }
+		#bft1 { width:  100%; /*border: 1px solid red;*/ }  
+			#bft1td1 { }     
+				#bft1_1 { width:890px; /*border: 1px solid red; */}    
+				 	#bft1td1{  /*border: 1px solid #000;*/  }
+						#bft1_1td1 { background-color: #e5e3e4; width: 390px; }  
+							#bft1_1td1_t1 { }
+								#bft1_1td1_t1_td1 img { }
+								#bft1_1td1_t1_td2 span { color: #284775; /*font-weight: bold;*/ font-size: 35px; font-family: 'MisoRegular'; padding-left: 5px;}
+								#bft1_1td1_t1_td3 { padding-left: 20px;}
+								#bft1_1td1_t1_td3 span { color: #284775; font-family: 'arial'; /*padding-left: 5px;*/ font-size: 12px; font-weight: bold; text-align: left; /*border: 1px solid #000;*/  }
+						#bft1_1td2 { background-color: #e5e3e4; width:400px; } 
+							#bft1_1td2_t1 { width: 100%; /*border: 2px solid #000;*/ height:10px; background-color: #fff; }    
+								#bft1_1td2_t1_td1  { background-color: #fff; padding-left: 20px; } 
+
+									#bft1_1td2_t1_td1 span {  width:170px; height: 30px; font-size: 11px; font-weight: bold; border: none; font-family: 'arial'; color:#af262a; }
+									#bft1_1td2_t1_td1 img { cursor: pointer; /*border: 1px solid #000;*/ height: 10px; }
+		 
+									bft1_1td2_t1_td1_t1  {   }    
+		  
+										bft1_1td2_t1_td1_t1_td1      
+										bft1_1td2_t1_td1_t1_td2      
+								#bft1_1td2_t1_td2 { background-color: #fff; }  
+									#bft1_1td2_t1_td2 span {  width:170px; height: 30px; font-size: 11px; font-weight: bold; border: none; font-family: 'arial'; color:#af262a; }
+									#bft1_1td2_t1_td2 img { cursor: pointer; /*border: 1px solid #000;*/ height: 10px; }
+		 
+									bft1_1td2_t1_td2_t1  
+										bft1_1td2_t1_td2_td1       
+										bft1_1td2_t1_td2_td2       
+								#bft1_1td2_t1_td3 { width: 20px; background-color: #b11c22;  }  
+									#bf_email  { width:100%; height: 30px; font-size: 11px; font-weight: bold; border: none; font-family: 'arial' }
+		 
+								#bft1_1td2_t1_td4 { width: 20px; background-color: #b11c22; }    
+									#bf_ok  { font-family: 'arial'; background-color: #b11c22; border: none; color: #ffffff; padding: 5px 15px 8px 15px; font-weight: bold; cursor: pointer; }
+						#bft1_1td3 { /*border: 1px solid #000;*/ background-color: #e5e3e4; width:20px; }
+							#bft1_1td3_t1 { width: 120px; /*border: 1px solid #000;*/ /*text-align: center; */}
+								#bft1_1td3_t1_td1 span  { margin-left: 25px; ;font-size: 11px; font-weight: bold; border: none; font-family: 'arial'; color:#af262a; text-decoration: underline; }   
+								#bft1_1td3_t1_td2 { }
+									#bft1_1td3_t1_td2 img { float: right;  }
+
+										
+					#bft1td2 { /*border: 1px solid #000;*/ }
+
+		#bft2{ /*border: 1px solid red;*/ float: left; position: relative; width: 100%; }  
+	  		
+			#bft2 td { /*width: 900px;*//* border: 1px solid #000*/ text-align: left; width:160px; } 
+				#bf_div_1 { position: absolute; text-align: left; padding-top: 10px;}
+				#bf_div_2 { position: absolute; text-align: left; padding-top: 10px;}
+				#bf_div_3 { position: absolute; text-align: left; padding-top: 10px;}
+				#bf_div_4 { position: absolute; text-align: left; padding-top: 10px;}
+				#bf_div_5 { position: absolute; text-align: left; padding-top: 10px; padding-left: 35px; }
+					#bf_div_5_div  { /*border: 1px solid red;*/ margin-left: -11px; }
+
+						#bf_div_5_div img {  width: 27px; height: 27px; /*border: 1px solid #000;*/ padding-left: 5px }    
+					 
+
+				#bft2 td div { /*border: 1px solid yellow;*/ }
+				#bft2 a { float: left; font-size: 11px; font-weight: bold; border: none; font-family: 'arial'; color:#af262a;  }
+				#bft2 a:hover {color: #284775; }
+				#bft2 a { text-decoration: none; float: left; }
+
+	 		#bftitle { color: #d2d0d1; font-size: 30px; font-family: 'MisoRegular'; }
+	 			#bfp1 { padding-top: 20px;}
+	 			#fu_white { color: #16396a; font-weight: bold; }  
+	 				
+	   

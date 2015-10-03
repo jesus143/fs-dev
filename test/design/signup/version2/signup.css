@@ -1,0 +1,142 @@
+body {
+    color: #284372 !important;
+    /*background-image: url("../../../fs_folders/images/signup/bg.jpg");*/
+    background-color: #f9f9f9;
+    padding:0px;
+}
+#container {
+    background-color:white;
+    padding:0px;
+}
+#container div {
+
+}
+#title-1 {
+}
+#header-right-form {
+}
+#next-line {
+    clear: both;
+    height:30px;
+}
+
+/*header menu with logo and login*/
+#signup-header-menu{
+    border-bottom:1px solid white;
+    padding-top:20px;
+    background-color:#1a4177;
+    padding:10px;
+}
+#signup-header-login {
+    float:right;
+}
+#signup-header-login img {
+    height:30px;
+}
+#signup-header-menu div a img {
+    foat:right;
+}
+#signup-header-menu div a span {
+    float:right;
+    font-family:arial;
+    font-size:11px;
+    border:2px solid #284372;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:7px;
+    padding-top:7px;
+    text-align:center;
+    text-transform: uppercase;
+}
+#signup-header-image-signup-fields{
+    border:1px solid red;
+}
+
+
+/*slide show and right sign up fields */
+.input-group {
+    margin: 0px auto;
+    border:1px solid auto
+}
+.input-group input {
+    background-color: #f9f9f9;
+    padding:20px;
+    text-align: center;
+    border-radius: 0px !important;
+}
+#sign-up-first-field {
+    border-radius: 5px 5px 0px 0px !important
+}
+#signup-button-submit {
+    padding:10px;width:100%;  border-radius: 0px 0px 5px 5px
+}
+
+
+
+
+
+
+
+
+
+/*four reasons*/
+
+#signup-body-four-purpose {
+    margin-top:30px;
+}
+#signup-body-four-purpose div {
+    margin:0px;
+    padding:0px;
+}
+#signup-body-four-purpose div#col1 , #signup-body-four-purpose div#col3  {
+
+}
+#signup-body-four-purpose div#col2 , #signup-body-four-purpose div#col4  {
+    background-color:#fffff;
+}
+#signup-body-four-purpose div#col1 #container {
+    background-color:#e6f3fb;
+    border:1px solid #e2e2df;
+    width:90%;
+    padding-top:50px;
+    padding-bottom:50px;
+    margin: 0px auto;
+    height:300px;
+}
+#signup-body-four-purpose div#col2 #container {
+    background-color:#fff;
+    border:1px solid  #e2e2df;
+    width:90%;
+    padding-top:50px;
+    padding-bottom:50px;
+    margin: 0px auto;
+    height:300px;
+}
+#signup-body-four-purpose div#col3 #container {
+    background-color:#e6f3fb;
+    border:1px solid  #e2e2df;
+    width:90%;
+    padding-top:50px;
+    padding-bottom:50px;
+    margin: 0px auto;
+    height:300px;
+}
+#signup-body-four-purpose div#col4 #container {
+    background-color:#fff;
+    border:1px solid  #e2e2df;
+    width:90%;
+    padding-top:50px;
+    padding-bottom:50px;
+    margin: 0px auto;
+    height:300px;
+}
+#signup-body-reasons{
+    padding-top:30px;
+    width:99%;
+    margin:auto;
+}
+#signup-body-reasons .jumbotron {
+    background-color:#fff;
+    border:1px solid  #e2e2df;
+    border-radius:0px;
+}

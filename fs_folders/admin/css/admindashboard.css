@@ -1,0 +1,45 @@
+body { padding: 0; margin: 0; font-family: 'verdana' }
+#admin_dashboard_wrapper { position: relative;  background-color: #ccc; margin: auto; width:1005px; height:auto; /*border: 1px solid #000;*/ }
+#admin_dashboard_header { position: relative; background-color: #000; color: #fff; font-style: italic; padding: 20px 0px 20px 0px; margin: auto; width: 100%;/* height:20px;*/  }
+	#ad_header_table { color: #fff; width: 100%; padding: 0% 2% 0% 2%; }
+	
+	#ad_welcome_message { /*margin-left: 2%;*/ }
+	#ad_logout { float: right; border: none; width: auto; height: 20px; border-radius: 5px; background: #fff; color:#000; font-size: 12px; font-weight: bold; cursor: pointer; /*margin-right: 2%;*/ }
+	
+	#ad_links_header{ float: left; }
+		#ad_links_header li{ float: right; }
+#admin_dashboard_body {   position: relative; /*border: 1px solid #000;*/  margin-top: 50px;  font-family: 'arial'; background-color: #yellow; /*width: 100%;*/ height:auto; }
+	
+#looks { } 
+	#ad_look_1st_continer { display: block;/* border: 1px solid red;*/ /*border-radius:5px;*/  padding: 20px 0px 20px 0px; width: 95%; margin: auto; background-color: #ffffff; }
+		#admin_more { text-align: center; width:910px; cursor: pointer; border: 1px solid #000; background-color: #000; color: #fff; padding: 20px; }
+		#ad_look_1st_continer img { /*display: none;*/  height: 250px; width: 100%; cursor: pointer; 
+ 	#ad_look_table1 td { width:20px  }
+ 	#look_image_settings { position: relative; /*margin-top: -20px;*/ } 	
+ 	#look_image_settings span { font-size: 12px; font-weight: bold; cursor: pointer;  }
+ 	#look_image_settings span:hover { /*color: red ;*/ text-decoration: underline;  }
+ 	#look_image_settings span a { text-decoration: none; color: #000;  }
+#ad_res { display: none; width: 300px; height: 200px; background-color: #000; color: #fff; position: fixed; font-size: 12px;  }
+ #nav { 
+ 	position: relative;
+ 	width: 500px; 
+ 	border: 1px solid yellow;
+ 	float: left;
+ }
+ #nav ul { 
+ 	position: relative;
+ 	margin: 0px; 
+ 	padding: 0px; 
+ 	border: 1px solid green;
+ 	float: left;
+ } 
+ #nav ul li { 
+  float: left; 
+  border: 1px solid red; 
+  padding: 10px;
+  cursor: pointer; 
+}
+#nav ul li a { 
+   color: #000;
+   text-decoration: underline; 
+}

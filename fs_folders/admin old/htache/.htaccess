@@ -1,0 +1,5 @@
+RewriteEngine On    
+
+RewriteRule    	^adminlogin/?$    				    index.php [NC,L]    
+RewriteRule    	^dashboard/?$    				    dashboard.php [NC,L]    
+RewriteRule    ^([A-Za-z0-9]+)/?$  					profile.php?user_name=$1&page=$2 [NC,L]    

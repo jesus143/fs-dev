@@ -1,0 +1,173 @@
+body { 
+	background-color: #ffffff; 
+}  
+#container { 
+	border:  1px solid #000;
+	background-color: #ccc;
+	width: 1010px;
+	margin: auto;
+}
+#body_container {   
+	width: 950px;
+	/*border: 1px solid yellow;*/
+	margin: auto;
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	
+}
+#header #body { 
+	border: 1px solid #000;
+
+}
+
+ #footer { 
+ 	height: 100px;	
+ 	border: 1px solid #000;
+ }
+ #footer_container { 
+	width: 950px;
+	/*border: 1px solid yellow;*/
+	margin: auto;
+	padding-top: 20px;
+}
+#titleName{ 
+	font-weight: bold;
+	/*font-size: 20px;*/
+}
+#titleDesc { 
+	font-size: 14px;
+}
+#ta { 
+	width:  100%;
+	/*width: 200px;*/  
+	height: 150px;
+	border: 1px solid #000;
+	resize:none;
+}
+
+input[type="text"] { 
+	width:  100%;  
+	border: 1px solid #000;
+	height: 30px;  
+}
+#imgprev { 
+	margin-left: 16px;
+	width: 300px;
+	height: 250px;
+	border: 2px solid #000;
+
+}
+
+#img{ 
+	/*margin-left: 16px;*/
+	width: 300px;
+	height: 250px;
+}
+
+#tleft  {   
+	margin: auto;
+	width: 440px; 
+	height: 250px;
+	/*border: 1px solid yellow;*/
+
+}
+#tright { 
+	margin: auto;
+	width: 450px;
+	height: 250px;
+	/*border: 1px solid yellow;*/
+}  
+#bt { 
+	/*height: 400px;  */
+	width: 100%;
+	border: 1px solid red;
+	padding-bottom: 20px;
+
+
+}
+  
+#loct { 
+	width: 920px;
+	margin: auto;
+	 
+}
+ #loct td{ 
+	/*width: 100%;*/
+	/*border: 1px solid #000;*/
+	/*text-align: center;*/  
+}
+#mloct {    
+	width: 100%;
+	/*padding-left: 35px;
+	padding-right: 35px;*/
+   
+}
+#title{ 
+	font-weight: bold;
+	font-size: 20px;	
+}
+#ltext { 
+		font-weight: bold;    
+}
+#dmt{ 
+	margin-left: 16px;	
+	width: 460px;   
+}
+#dmt td { 
+	width: 190px;
+}
+#slc1{ 
+	width: 44%;
+	margin-left: 5px;
+	/*border: none;*/
+	border: 1px solid #000;
+}
+#cttd { 
+width: 100%;
+}
+#slc2 { 
+	border: 1px solid #000;
+	width: 100%;
+}
+
+#ct{ 
+	width: 100%;
+
+}  
+#bordertd , #locdiv { 
+	border: 3px solid #000;
+	padding: 10px 0 10px 0;  
+}
+#dmtble  {   
+	width: 100%;
+}
+#tnad {   
+	width: 100%;     
+	 
+}
+#vr { 
+	border: 1px solid green;
+	height: 200px;
+	position: absolute;
+	z-index: 200;
+	background-color: red; red
+
+}
+
+
+
+#divright{ 
+	border: 3px solid #000;  
+	width: 474px;
+	float: right;
+	border-left: none; 
+	padding: 0 0 20px 0;
+}
+#divleft { 
+	border: 3px solid #000;
+	width: 468px;
+	position: absolute;
+	padding: 0 0 20px 0;
+	height: 280px; 
+}
+    

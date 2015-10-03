@@ -1,0 +1,2 @@
+[20-May-2014 14:54:18 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home1/ricopeco/public_html/fs_folders/page_header/header_php_file/header4_signOut.php on line 28
+[21-Jun-2014 14:35:41 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home1/ricopeco/public_html/fs_folders/page_header/header_php_file/header3_signIn.php on line 10

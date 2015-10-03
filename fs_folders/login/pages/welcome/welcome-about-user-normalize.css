@@ -1,0 +1,102 @@
+/*-----------------------------------------------------------------------------
+[client] Screen Stylesheet
+
+version:   1.0
+date:      01/03/07
+author:    [your email]
+email:     [you at domain dot com]
+website:   [your domain]
+version history: [location of file]
+@import url("typography.css");
+/* Remove padding and margin */
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.clear
+{
+    clear:both;
+}
+
+.right
+{
+    float: right;
+}
+
+.left
+{
+    float: left;
+}
+body
+{
+    font-size: 125%;
+    font-family: arial, sans-serif;
+    background: url(/images/wallpaper.png) repeat;
+    color: #000000;
+    text-align:center;
+}
+
+#wrapper
+{
+    width:980px;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #FFFFFF;
+}
+h1
+{
+    font-size: 2.2em;
+}
+
+h2
+{
+    font-size: 2.0em;
+}
+
+h3
+{
+    font-size: 1.8em;
+}
+
+h4
+{
+    font-size: 1.6em;
+}
+
+h5
+{
+    font-size: 1.4em;
+}
+
+p
+{
+    font-size: 125%;
+}
+/* Header
+
+/* Footer
+
+/* Your template
+
+input.text
+  {
+  padding: 3px;
+  border: 1px solid #999999;
+}
+/* Tables
+-----------------------------------------------------------------------------*/
+
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td
+{
+    text-align: left;
+    font-weight: normal;
+}

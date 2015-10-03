@@ -1,0 +1,8 @@
+body { padding: 0; margin: 0; }
+#admin_wrapper { position: relative;  background-color: #ccc; margin: auto; width:100%; height:100%; /*border: 1px solid #000;*/ }
+#admin_header { position: relative; background-color: #000; margin: auto; width: 100%; height:60px;  }
+
+#admin_body {   position: relative; /*border: 1px solid #000;*/  margin-top: 20px;  font-family: 'arial'; background-color: #yellow; /*width: 100%;*/ height:auto; }
+	#login_table { float: right; margin-right: 20px; /*border: 1px solid #000;*/ width:  40%; }
+	#login_table td input { width: 100%; height: 25px; font-size: 12px; border: 1px solid #000; padding-left: 10px; padding-right: 10px; }
+	#login_table td input[type="submit"] { cursor: pointer; }

@@ -1,0 +1,32 @@
+1. open phpmyadmin
+2. update all user to pending
+3. add new users to queue
+4. set last 2 persons to rico and jesus
+5. set 1st email to be sent
+6. sent click email info to see if correct
+7. set the 2nd email sent
+8. sent click email info to see if correct
+9. set the 3rd email sent
+10. sent click email info to see if correct
+11. set the 4rth email if email will go to the not signup
+
+12. restore all the data
+13. set 200 in the queue
+14. set last 2 email to jesus and rico
+15. set first email sent to jesus and rico
+16. check email open and click signup
+17. check if successfully sign up in collect-email.php
+18. restore jesus or rico to invite queue
+19. open email click remove
+20. check if removed in collect-email.php
+
+21. review the issue listed and do quick fix and test again for the specific test number
+
+22. after all successfully working then invite app ready to send invite to the list of people.
+
+
+
+
+
+
+

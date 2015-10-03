@@ -1,0 +1,295 @@
+<?php
+    include ("../../../../fs_folders/php_functions/Class/DetectMobile.php");
+    $md = new Mobile_Detect();
+
+    if($md->isMobile())
+    {
+        $style = 'signup-mobile.css';
+    }
+    else
+    {
+        $style = 'signup-desktop.css';
+    }
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Signup</title>
+
+    <!--font-->
+    <link rel="stylesheet" type="text/css" href="../../../../fs_folders/style/fonts/miso_bold_macroman/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../../../../fs_folders/style/fonts/miso_light_macroman/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../../../../fs_folders/style/fonts/miso_regular_macroman/stylesheet.css">
+
+
+
+
+    <!-- Bootstrap -->
+    <!--<link href="../../../fs_folders/Assets/css/bootstrap.min.css" rel="stylesheet">-->
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.css" >
+
+
+    <!-- Style mobile view -->
+    <!--<link href="" rel="stylesheet">-->
+
+    <script src="../../../../fs_folders/js/jquery-1.9.1.js"></script>
+
+    <!-- Style desktop view-->
+    <link href="<?php echo $style; ?>" rel="stylesheet" id="style" >
+
+    <!-- js -->
+
+</head>
+<body role="document"   >
+
+
+<div id="container" class="container" style="margin: 0px auto"  >
+
+<!-- header logo and sign up button -->
+<div id="signup-header-menu">
+    <div>
+        <a href="\">
+            <img src="../../../../fs_folders/images/genImg/logo-fashionsponge1.png" style="height:30px;">
+        </a>
+        <a href="\?login=1" id="signup-header-login">
+            <img src="../../../../fs_folders/images/genImg/log-in-mouse-over-signup.png">
+        </a>
+    </div>
+</div>
+
+<!-- carousel and right sign up fields-->
+<div class="row">
+
+    <!-- carousel -->
+
+    <div class="col-md-8" id="carousel-container"  >
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"   >
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4" class=""></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="../../../../fs_folders/images/signup/women.png" data-src="holder.js/1140x500/auto/#777:#555/text:First slide" alt="First slide">
+                </div>
+
+                <div class="item">
+                    <img src="../../../../fs_folders/images/signup/menswear.png" data-src="holder.js/1140x500/auto/#666:#444/text:Second slide" alt="Second slide">
+                </div>
+
+                <div class="item">
+                    <img src="../../../../fs_folders/images/signup/beauty.png" data-src="holder.js/1140x500/auto/#555:#333/text:Third slide" alt="Third slide">
+                </div>
+
+                <div class="item">
+                    <img src="../../../../fs_folders/images/signup/lifestyle.png" data-src="holder.js/1140x500/auto/#555:#333/text:Third slide" alt="Third slide">
+                </div>
+
+                <div class="item">
+                    <img src="../../../../fs_folders/images/signup/entertainment.png" data-src="holder.js/1140x500/auto/#555:#333/text:Third slide" alt="Third slide">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+
+    <!-- right sign up fields -->
+
+
+    <div class="col-md-4"  id="top-signup-field-container" >
+        <div id="next-line" ></div>
+
+        <div id="sign-up-field-container"   >
+
+            <div id="title-1"    >
+                Sign up to our
+                private beta
+            </div>
+
+            <div id="next-line" style="height: 15px;" > </div>
+
+            <p style="text-align: center;"  id="desc"  >
+                *Quality supersedes quantity. Membership is restricted to people who's website / blog proves they create content that's both high quality and compelling.
+            </p>
+
+            <div id="next-line" style="height: 15px;" > </div>
+
+            <div id="header-right-form"  >
+                <div class="input-group" id="top-signup-fields" >
+                    <input id="sign-up-first-field" type="text" class="form-control" placeholder="Your Name *" aria-describedby="basic-addon1">
+                    <input                          type="text" class="form-control" placeholder="Email Address *" aria-describedby="basic-addon2">
+                    <input                          type="text" class="form-control" placeholder="Phone Number" aria-describedby="basic-addon2">
+                    <button id="submit" type="button" class="btn btn-sm btn-danger">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="next-line"> </div>
+
+<!-- devices laptop, tablet and mobile img -->
+<img style="width:97.6%; margin: 0px auto;" src="../../../../fs_folders/images/signup/devices.jpg" class="img-responsive" alt="Responsive view in laptop, tablet and mobile">
+
+<!-- four reasons -->
+<div id="signup-body-four-purpose">
+
+    <div id="blue-container-1"  >
+        <b>FOUR</b> REASONS YOU SHOULD <br> REQUEST AN <b>INVITE</b>.
+    </div>
+
+    <div id="next-line" >
+    </div>
+
+    <div class="row">
+
+        <!-- exposure -->
+        <div class="col-md-3" id="col1" >
+            <div id="container" class="exposure-container"  >
+                <img src="../../../../fs_folders/images/genImg/signup-exposure-icon-red.png" style="height:70px">
+                <div id="private-signup-title-2" class="fs-text-blue" style="margin-top:10px; text-align:center; border:1px solid none;">
+                    EXPOSURE
+                </div>
+                <div id="desc"  style=" margin:auto;  margin-top:20px;  width:90%; border:1px solid none;;   ">
+                    <p>  Get exposure by continuously posting content and engaging with members.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- discover -->
+        <div class="col-md-3" id="col2">
+            <div id="container" class="discover-container"  >
+                <img src="../../../../fs_folders/images/genImg/signup-discover-icon-red.png" style="height:70px">
+                <div id="private-signup-title-2" class="fs-text-blue" style="margin-top:10px; text-align:center;border:1px solid none;  ">
+                    DISCOVER
+                </div>
+                <div  id="desc" class="fs-text-blue" style="margin:auto;  margin-top:20px;  width:90%;  border:1px solid none;  ">
+                    <p> Discovering fashionable people, places and things couldn't be easier.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- inspiration -->
+        <div class="col-md-3" id="col3">
+            <div id="container" class="inspiration-container" >
+                <img src="../../../../fs_folders/images/genImg/signup-learn-icon-red.png" style="height:70px">
+                <div id="private-signup-title-2" class="fs-text-blue" style="margin-top:10px; text-align:center;border:1px solid none; ">
+                    INSPIRATION
+                </div>
+                <div id="desc" class="fs-text-blue" style=" margin:auto; margin-top:20px;  width:90%;  border:1px solid none;   ">
+                    <!-- Be inspired by some of the best content creators and most stylish people on the web.   -->
+                    <p>  Be inspired by some of the best bloggers and most stylish people on the web.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- feedback -->
+        <div class="col-md-3" id="col4">
+            <div id="container" class="inspiration-container" >
+                <img src="../../../../fs_folders/images/genImg/sigmup-feedback-icon-red.png" style="height:70px">
+                <div id="private-signup-title-2" class="fs-text-blue" style="margin-top:10px; text-align:center;border:1px solid none; ">
+                    FEEDBACK
+                </div>
+                <div id="desc" class="fs-text-blue" style=" margin:auto;  margin-top:20px;  width:90%; border:1px solid none;   ">
+                    <p> Become a better blogger and dresser by seeing how the community rates your content.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="next-line" >
+</div>
+
+<div id="blue-container-2" >
+    FREQUENTLY <b>ASKED</b> QUESTIONS
+</div>
+<div id="next-line"></div>
+<div  id="frequently-asked-container"  >
+    <p id="title-2" >
+        WHAT IS FASHIONSPONGE.COM?
+    </p>
+    <p  id="desc" >
+        Fashion Sponge is where fashion and lifestyle bloggers can grow their audience and readers
+        can discover the latest in Fashion, Beauty, Lifestyle and Entertainment.
+    </p>
+
+    <p id="title-2" >
+        WHAT IS A "FASHION SPONGE"?
+    </p>
+    <p id="desc" >
+        A Fashion Sponge is someone who enjoys sharing or reading about fashionable things. E.g.
+        exclusive, stylish, trendy or topical things.
+    </p>
+
+    <p id="title-2" >
+        WHY IS MEMBERSHIP RESTRICTED?
+    </p>
+    <p id="desc" >
+        At Fashion Sponge quality will always supersedes quantity. Limiting membership to only <br>
+        bloggers who create good content will ensure that all content meets the standard.
+    </p>
+</div>
+
+<div id="next-line"></div>
+
+<!-- footer sign up fields -->
+<div class="jumbotron" id="footer-signup-field"  >
+    <div class="row">
+        <!-- fields -->
+        <div class="row" >
+            <div class="col-md-12">
+                <div class="input-group" style="margin: 0px auto; border:1px solid auto; width: 99%"  >
+                    <input id="sign-up-first-field"  type="text" class="form-control" placeholder="Your Name *" aria-describedby="basic-addon1">
+                    <input   type="text" class="form-control" placeholder="Email Address *" aria-describedby="basic-addon2">
+                    <input   type="text" class="form-control" placeholder="Phone Number" aria-describedby="basic-addon2">
+                    <button id="submit" type="button" class="btn btn-sm btn-danger">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!--<script src="../../../fs_folders/js/jQv1.8.2.js"></script>-->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!--<script src="../../../fs_folders/js/bootstrap-3.3.1-dist/dist/js/bootstrap.js"></script>-->
+<!-- JavaScript placed at the end of the document so the pages load faster -->
+
+
+
+<!-- Optional: Incorporate the Bootstrap JavaScript plugins -->
+<!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+<script src="../../../../fs_folders/js/bootstrap-3.3.1-dist/dist/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>
+

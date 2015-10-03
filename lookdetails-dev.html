@@ -1,0 +1,980 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>New Details Page Development</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="fs_folders/js/bootstrap-3.3.1-dist/dist/css/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
+    <!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>[endif] -->
+
+    <link rel="stylesheet" type="text/css" href="fs_folders/index_home/home_css/home.css">
+    <script type="text/javascript" src='fs_folders/fs_lookdetails/lookdetails_js/lookdetails_ajax.js'></script>
+    <script type="text/javascript" src='fs_folders/fs_lookdetails/lookdetails_js/lookdetails_query.js'></script>
+    <link rel="stylesheet" type="text/css" href='fs_folders/fs_lookdetails/lookdetails_style/lookdetails.css'>
+    <link rel="stylesheet" type="text/css" href="fs_folders/gen_css/gen_style.css" />
+
+
+
+    <script type="text/javascript" src='fs_folders/js/jquery-1.9.1.js'> </script>
+    <script type="text/javascript" src='fs_folders/js/function_js.js'></script>
+    <!--<script type="text/javascript" src='fs_folders/js/genQuery.js'></script>-->
+    <!--<script type="text/javascript" src='fs_folders/js/popover.js'></script>-->
+    <!--<link rel="stylesheet" type="text/css" href="fs_folders/js/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.custom.css">-->
+    <!--<script type="text/javascript" src="fs_folders/js/jquery-ui/js/jquery-ui-1.10.3.custom.js" ></script>-->
+    <!--<script type="text/javascript" src='fs_folders/js/modal.js'></script>-->
+
+
+
+    <style>
+
+        h1,h2,h3,h4,h5,h6  {
+            font-family: 'Avenir LT Std 95 Black';
+        }
+
+        #lookdetails_body_container {
+            /*height: 200px; */
+            width: 1009px;
+            /*border: 1px solid #e2e2df;*/
+            /* background: #f5f4f1; */
+            /*background: #e9eaed;  */
+            background-color: white;
+
+        }
+
+        .details-page-header {
+            /*background-color:rgb(34, 91, 153);*/
+            /*background-color: white;*/
+            width:88.2%;
+            /*border-bottom:1px solid rgb(242, 241, 241);*/
+            margin: 0 auto;
+        }
+
+        .details-page-header div {
+
+        }
+
+        .details-page-header p, #lookdetails_body_container p,
+        .details-page-header span, #lookdetails_body_container span,
+        .details-page-header label, #lookdetails_body_container label,
+        .details-page-header em , #lookdetails_body_container em {
+            padding:0;
+            margin:0;
+            font-size: 12px;
+            font-family: 'Avenir LT Std 95 Black';
+        }
+
+        .details-page-header p,
+        .details-page-header span,
+        .details-page-header label,
+        /*.details-page-header h2,*/
+        /*.details-page-header em*/
+        {
+            color:rgb(34, 91, 153);
+            font-family: 'Avenir LT Std 95 Black';
+        }
+
+        #lookdetails_body_container  {
+
+        }
+
+        .details-page-header-table-1 {
+            padding-left:20px;
+            padding-right:20px;
+            margin: 0 auto;
+            width:100%;
+        }
+
+        .center {
+            text-align: center;
+            margin:0px auto;
+        }
+
+        .left {
+            text-align: left;
+        }
+
+        .bold {
+            font-weight: bold !important;
+        }
+
+        .border {
+            border:1px solid black;
+            /*border-radius: 5px;*/
+            /*width:60px;*/
+            /*width:auto; */
+        }
+
+        .padding-bottom {
+            padding-bottom: 30px;
+        }
+
+        .padding-top {
+            padding-top: 50px;
+        }
+
+        .padding-left-icons {
+            padding-left: 20px;
+        }
+
+        .padding-right-icons {
+            padding-right: 20px;
+        }
+
+        .padding-left-icons-small {
+            padding-left: 5px;
+        }
+
+        .padding-right-icons-min {
+            padding-right: 20px;
+        }
+
+        .padding-left-icons-small-min {
+            padding-left: 5px;
+        }
+
+        .heart-icon {
+            height: 20px;
+            margin-top: 7px;
+        }
+
+        .details-page-header-1 {
+            /*border:1px solid yellow;*/
+
+        }
+
+        .padding-left {
+            padding-left: 40px;
+        }
+        .padding-right {
+            padding-right: 40px;
+        }
+
+        .ul-container-cols-2 {
+            float:left;
+            /*border:1px solid green;*/
+            margin-left:18px;
+        }
+
+        .ul-container-cols-2 li {
+            float:left;
+            /*border:1px solid red;*/
+            list-style: none;
+
+        }
+
+        .ul-container-cols-2-li-left {
+            padding-top:40px;
+            /*border:1px solid red;*/
+            width:200px;
+        }
+
+        .ul-container-cols-2-li-right {
+            /*border:1px solid black;*/
+            width:682px;
+        }
+
+        .profile-container {
+            border-radius: 5px;
+            border:1px solid grey;
+            padding-top:5px;
+            padding-bottom:9px;
+            padding-left:5px;
+            padding-right:8px;
+            width: 50%;
+            margin: 0px auto;
+        }
+
+        .profile {
+            width:100%;
+        }
+
+        .profile-name {
+            font-size: 15px;
+        }
+
+        .black {
+            color:black;
+        }
+
+        .grey {
+            color: rgb(161, 168, 170);
+        }
+
+        .social-profile-icons-table {
+            width: 100%;
+            /*border: 1px solid grey;*/
+
+        }
+
+        .social-profile-icons-table td {
+            /*border: 1px solid grey;*/
+            text-align: center;
+            padding-top:10px;
+            padding-bottom:10px;
+        }
+
+        .profile-follow {
+            padding:10px;
+        }
+
+
+        .padding-profile-top {
+            padding-top:10px;
+        }
+
+        .padding-profile-bottom {
+            padding-bottom:10px;
+        }
+
+        .profile-container-right {
+            /*border:1px solid red;*/
+
+        }
+
+        .profile-container-padding-right {
+            padding-left: 40px;
+        }
+
+        .profile-container-padding-left {
+            padding-right: 40px;
+        }
+        .profile-container-left{
+            border:1px solid rgb(239, 239, 239);
+        }
+
+        .td-left {
+            border-top:1px solid rgb(239, 239, 239);
+            border-left:1px solid rgb(239, 239, 239);
+            border-bottom:1px solid rgb(239, 239, 239);
+        }
+
+        .td-center {
+            border-left:1px solid rgb(239, 239, 239);
+            border-top:1px solid rgb(239, 239, 239);
+            border-bottom:1px solid rgb(239, 239, 239);
+        }
+
+        .td-right {
+            border-top:1px solid rgb(239, 239, 239);
+            border-right:1px solid rgb(239, 239, 239);
+            border-bottom:1px solid rgb(239, 239, 239);
+        }
+
+        .paddin-profile-content {
+            padding-left:5px;
+            padding-right:5px;
+
+        }
+
+        .blue {
+            color:rgb(34, 91, 153);
+        }
+
+        .details-page-content1 {
+
+        }
+
+        .details-modal-container {
+            border:1px solid red;
+            /*height: 500px;*/
+            /*background-color: black;*/
+            color:black;
+            font-size: 50px;
+        }
+
+        .container-margin-top {
+            margin-top:30px;
+        }
+
+        .details-page-content2 {
+            /*border:1px solid red;*/
+             padding-bottom: 30px;
+        }
+
+        .bg-white {
+            background-color: white;
+        }
+
+        .border-gey {
+            border:1px solid grey;
+            border-radius: 5px;
+            width:60px;
+        }
+
+        .active-border {
+            border:2px solid rgb(34, 91, 153);
+            font-family: 'Avenir LT Std 85 Heavy';
+            text-transform: uppercase;
+        }
+
+        .align-left {
+            margin-left: 298px;
+        }
+
+        .margin-auto {
+            margin:0px auto;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .details-edit {
+            float:left;
+        }
+
+        .bg-public {
+            background-color: #f6f7f8;
+        }
+
+        .width-auto  {
+            width:auto;
+        }
+
+        .padding-top-comment {
+             padding-top:20px;
+         }
+
+        .padding-bottom-comment {
+            padding-bottom:20px;
+        }
+
+        .media-object {
+            border-radius: 40px;
+        }
+
+        .padding {
+            padding:20px;
+        }
+
+        .more {
+            color: green;
+            cursor: pointer;
+        }
+
+        .more:hover{
+            color: #4e93ff;
+        }
+
+        .comment-textarea {
+            /*border:1px solid red;*/
+            /*padding:20px;*/
+            background-color: white;
+            text-align: center;
+            border-radius: 5px;
+            margin-top:20px;
+
+        }
+
+        .comment-textarea textarea {
+            margin-top:20px;
+            width:100%;
+            height: 70px;
+            /*border:1px solid green;*/
+            resize:none;
+            border:none;
+
+            background-color: rgb(246, 247, 248);
+
+        }
+
+        .comment-textarea table {
+            width:100%;
+        }
+
+        .comment-container {
+            background-color: rgb(246, 247, 248);
+        }
+
+        .border-bottom {
+            border-bottom:1px solid rgb(243, 243, 243);
+        }
+
+        .border-top {
+            border-top:1px solid rgb(243, 243, 243);
+        }
+
+        .text {
+            padding:10px;
+        }
+
+        .red  {
+            color:rgb(200, 79, 71);
+        }
+
+        .font-arial {
+
+            font-family: 'Avenir LT Std 95 Black';
+        }
+
+        .green {
+            color: rgb(75, 180, 56);
+        }
+
+        .forward-slash {
+            padding-left:10px;
+        }
+
+        .circle-blue {
+            background-color: rgb(33, 91, 153);
+            padding-left:7px;
+            padding-right:8px;
+            padding-top:5x;
+        }
+
+        .next-top {
+
+        }
+
+        .next-top table {
+            position:fixed;
+            /*margin-top:631px*/
+        }
+
+        .next-top table td:nth-child(1) {
+            background-color:green; padding:10px; color:white
+        }
+
+        .next-top table td:nth-child(2) {
+            background-color:grey; padding:10px; color:white
+        }
+
+        .member-social-icons {
+            height:15px;
+        }
+
+        .hide {
+            display:none;
+        }
+
+        .radius-5 {
+            border-radius: 5px;
+        }
+
+        .padding-10 {
+            padding:5px;
+        }
+
+        .width-150 {
+            width:150px;
+        }
+
+        .pointer {
+            cursor:pointer;
+        }
+
+        .padding-5{
+            padding:5px;
+        }
+
+        .scroll-top {
+            position:fixed;
+        }
+
+        .border-black {
+            border:1px solid black;
+        }
+
+        .radius-10 {
+            border-radius:10px;
+        }
+
+        .tags {
+            padding:3px 15px 2px 15px !important;
+        }
+
+        .width-100 {
+            width:100%;
+        }
+
+        .like {
+            height:13px;
+            margin-top:-6px;
+            margin-left:10px;
+        }
+
+        .dislike {
+            height:13px;
+            margin-top:0px;
+            margin-left:10px;
+        }
+
+        .sorting {
+            padding:5px;
+            margin-left:20px;
+            border-radius:5px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!--scroll top not in used -->
+    <div class="next-top hide" >
+        <table border="0"  >
+            <tr>
+                <td>
+                    Next ^
+                </td>
+                <td>
+                    Top ^
+                </td>
+        </table>
+    </div>
+
+    <!--scroll top-->
+    <div class="scroll-top">
+        <img
+                id="scroll-top-button"
+                class="scroll-top-button"
+                src="fs_folders/images/details/top-button.png"
+                onmousemove=" mousein_change_button ( '#scroll-top-button' , 'fs_folders/images/details/top-button_mouse_over.png' )"
+                onmouseout="mouseout_change_button (  '#scroll-top-button'  , 'fs_folders/images/details/top-button.png' )"
+        />
+    </div>
+
+    <div id='lookdetails_wrapper'  class="container bs-docs-container" >
+        <div id='lookdetails_body_container' >
+
+            <!-- Header Title -->
+            <div  style="display:block" class="details-page-header" >
+                <table class="details-page-header-table-1" border="0" cellpadding="0" cellspacing="0" >
+                    <tr>
+                        <td class="padding-bottom padding-top border-bottom">
+                            <div class="center">
+                                 <span class="center bold border active-border radius-10 tags"    >Travel</span>
+                            </div>
+                        </td>
+                    <tr>
+                        <td>
+                            <h2 class="left black bold  ">
+                                The Soul Of Siberia Hidden Beneath The Water
+                            </h2>
+                        </td>
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" style="margin:0px auto" >
+                                <tr>
+                                    <td>
+                                        <img class="heart-icon" src="fs_folders/images/details/total-likes.png" >
+                                    </td>
+                                    <td class="padding-left-icons" >
+                                        <h2 class="green" > 3.4K  </h2>
+                                    </td>
+                                    <td class="padding-left-icons-small forward-slash"  >
+                                        <h2> / </h2>
+                                    </td>
+                                    <td class="padding-left-icons" >
+                                        <img src="fs_folders/images/details/grey-clock.png">
+                                    </td>
+                                    <td class="padding-left-icons-small black"  >
+                                        <em>june 11,2015 9:26pm</em>
+                                    </td>
+                                    <td class="padding-left-icons"  >
+                                        <img src="fs_folders/images/details/grey-comment-icon.png">
+                                    </td>
+                                    <td class="padding-left-icons-small black"  >
+                                        <span>143</span>
+                                    </td>
+                                    <td  class="padding-left-icons" >
+                                        <img class="social-rectangle-icon" src="fs_folders/images/details/facebook-button.png" >
+                                    </td>
+                                    <td  class="padding-left-icons"  >
+                                        <img  class="social-rectangle-icon" src="fs_folders/images/details/pinterest-button.png" >
+                                    </td>
+                                <tr>
+                            </table>
+                        </td>
+                </table>
+            </div>
+
+            <!-- Content pic -->
+            <div style="clear: both"></div>
+            <div style="display:block; width:90%;" class="padding-top-comment details-page-content1 margin-auto " >
+                <div class="details-modal-container center" >
+                    This is the details image and  more by
+                </div>
+            </div>
+
+            <!-- Header Profile -->
+            <div style="display:block" class="details-page-header-1 padding-left padding-right "  >
+                <ul class="ul-container-cols-2" >
+                    <li class="ul-container-cols-2-li-left  " >
+                        <div class="profile-container-left padding-profile-top" >
+                            <table border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto; width: 100%" >
+                                <tr>
+                                    <td>
+                                        <div class="profile-container" >
+                                            <img src="fs_folders/images/details/profile.jpg" class="profile" />
+                                        </div>
+                                    </td>
+                                <tr>
+                                    <td>
+                                        <div class="center padding-profile-top paddin-profile-content " >
+                                            <span class="profile-name blue" >  Maurico Moore </span>
+                                        </div>
+                                    </td>
+                                <tr>
+                                    <td>
+                                        <div class="center padding-profile-top paddin-profile-content"  >
+                                            <span class="text black" > Founder / Fashion Sponge </span>
+                                        </div>
+                                    </td>
+                                <tr>
+                                    <td>
+                                        <div class="center padding-profile-top padding-profile-bottom  paddin-profile-content" >
+                                            <span class="black">
+                                                Looks
+                                                <span class="bold"  > 124 </span>
+                                                Likes
+                                                <span class="bold" > 5k </span>
+                                                Followers
+                                                <span class="bold" > 1k </span>
+                                            </span>
+                                        </div>
+                                    </td>
+                                <tr>
+                                    <td class="hide" >
+                                        <div class="padding-profile-top" >
+                                            <table border="0" cellspacing="0" cellpadding="0" class="social-profile-icons-table" >
+                                                <tr>
+                                                    <td class="td-left" >
+                                                        <img
+                                                                id="member-social-facebook"
+                                                                class="member-social-icons"
+                                                                src="fs_folders/images/details/facebook.png"
+                                                                onmousemove=" mousein_change_button ( '#member-social-facebook' , 'fs_folders/images/details/facebook-grey.png' )"
+                                                                onmouseout="mouseout_change_button (  '#member-social-facebook'  , 'fs_folders/images/details/facebook.png' )"
+
+                                                                />
+                                                    </td>
+
+                                                    <td  class="td-center" >
+
+                                                        <!--<img class="member-social-icons" src="fs_folders/images/details/twitter.png" />-->
+
+                                                        <img
+                                                                id="member-social-twitter"
+                                                                class="member-social-icons"
+                                                                src="fs_folders/images/details/twitter.png"
+                                                                onmousemove=" mousein_change_button ( '#member-social-twitter' , 'fs_folders/images/details/twitter-grey.png' )"
+                                                                onmouseout="mouseout_change_button (  '#member-social-twitter'  , 'fs_folders/images/details/twitter.png' )"
+
+                                                                />
+                                                    </td>
+
+                                                    <td class="td-center" >
+
+                                                        <!--<img class="member-social-icons" src="fs_folders/images/details/instagram.png" />-->
+
+                                                        <img
+                                                                id="member-social-instagram"
+                                                                class="member-social-icons"
+                                                                src="fs_folders/images/details/instagram.png"
+                                                                onmousemove=" mousein_change_button ( '#member-social-instagram' , 'fs_folders/images/details/instagram-grey.png' )"
+                                                                onmouseout="mouseout_change_button (  '#member-social-instagram'  , 'fs_folders/images/details/instagram.png' )"
+
+                                                                />
+
+
+                                                    </td>
+
+                                                    <td class="td-center" >
+                                                        <!--<img class="member-social-icons" src="fs_folders/images/details/twitter.png" />-->
+
+                                                        <img
+                                                                id="member-social-pinterest"
+                                                                class="member-social-icons"
+                                                                src="fs_folders/images/details/pinterest.png"
+                                                                onmousemove=" mousein_change_button ( '#member-social-pinterest' , 'fs_folders/images/details/pinterest-grey.png' )"
+                                                                onmouseout="mouseout_change_button (  '#member-social-pinterest'  , 'fs_folders/images/details/pinterest.png' )"
+
+                                                                />
+
+
+
+                                                    </td>
+
+                                                    <td  class="td-right">
+                                                        <!--<img class="member-social-icons" src="fs_folders/images/details/instagram.png" />-->
+                                                        <img
+                                                                id="member-social-tumblr"
+                                                                class="member-social-icons"
+                                                                src="fs_folders/images/details/tumblr.png"
+                                                                onmousemove=" mousein_change_button ( '#member-social-tumblr' , 'fs_folders/images/details/tumblr-grey.png' )"
+                                                                onmouseout="mouseout_change_button (  '#member-social-tumblr'  , 'fs_folders/images/details/tumblr.png' )"
+
+                                                                />
+
+                                                    </td>
+
+                                            </table>
+                                        </div>
+                                    </td>
+                                <tr>
+                                    <td>
+                                        <div class="profile-follow center padding-profile-top blue border-top" >
+                                            Follow
+                                        </div>
+                                    </td>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="ul-container-cols-2-li-right" >
+
+                        <div class="profile-container-right profile-container-padding-left profile-container-padding-right black  padding-profile-top " >
+                            <h3>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                                into electronic typesetting, remaining essentially unchanged. It was pop
+                            </h3>
+
+                            <h1>Wildlife</h1>
+
+                            <p>
+                                classical Latin literature from 45 BC, making it over 2000 years old.
+                                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                                looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+                                and going through the cites of the word in classical literature, discovered the undoubtable source.
+                                Lorem Ipsum comes from sections 1.10.32 and
+                                1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is
+                            </p>
+
+                            <h4> INVERTEBRATES </h4>
+
+                            <p>
+                                any variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
+                                or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
+                                sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat
+                                predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Lati
+                                <span class="more green" > Read More </span>                            </p>
+                        </div>
+
+
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Content Social Media -->
+            <div style="clear: both"></div>
+            <div style="display:block" class="details-page-content2 bg-white padding-top" >
+
+                <div class="align-left" >
+                    <table border="0" cellpadding="0" cellspacing="0" >
+                        <tr>
+                            <td>
+                                <span class="center bold border-gey tags radius-10" > TRAVEL </span>
+                            </td>
+                            <td class="padding-left-icons" >
+                                <span class="center bold border-gey tags radius-10" > BAIKAL </span>
+                            </td>
+                            <td class="padding-left-icons" >
+                                <span class="center bold border-gey tags radius-10" > LAKE </span>
+                            </td>
+                    </table>
+                </div>
+
+                <div class="center align-left padding-top-comment"   >
+                    <table border="0" cellpadding="0" cellspacing="0" >
+                        <tr>
+                            <td >
+                                <img class="heart-icon" src="fs_folders/images/details/white-red-heart.png" >
+                            </td>
+                            <td class="padding-left-icons" >
+                                <h2 class="bold green" > 3.4K  </h2>
+                            </td>
+                            <td> <h2 class="bold forward-slash"> / </h2> </td>
+                            <td  class="padding-left-icons" >
+                                <img class="social-rectangle-icon" src="fs_folders/images/details/facebook-button.png" >
+                            </td>
+                            <td  class="padding-left-icons"  >
+                                <img  class="social-rectangle-icon" src="fs_folders/images/details/pinterest-button.png" >
+                            </td>
+                    </table>
+                </div>
+
+            </div>
+
+            <!-- Content Comments -->
+            <div style="clear: both"></div>
+            <div class="comment-container" >
+                <div class="auto padding-top-comment"   >
+                    <table border="0" class="margin-auto"  style="width:100%;"  >
+                        <tr>
+                            <td style="width:56.7%">
+                                <div class="float-right center bold border-black padding-10 radius-10 width-150 pointer" >
+                                    <span>Comments &nbsp; <div class="badge circle-blue">3</div> &nbsp; ^ </span>
+                                </div>
+                            </td>
+                            <td style="width: 27%">
+                                <select class="sorting border-black" >
+                                    <option> Newest </option>
+                                    <option> Oldest </option>
+                                </select>
+                            </td>
+                            <td>
+                                <div  class="details-edit" > <img src="fs_folders/images/details/comment-icon.png"> </div>
+                            </td>
+                    </table>
+                </div>
+                <div class="bs-example " data-example-id="media-list" style="padding:0px; margin:0px; width: 740px; border:1px solid none; margin: 0 auto; padding-bottom: 40px;padding-top: 20px; ">
+                    <ul class="media-list">
+
+                        <li class="media border-top padding-top-comment ">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://dev.fashionsponge.com/fs_folders/images/uploads/members/mem_thumnails/927.jpg" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading" id="media-heading">
+                                    <span class="profile-name black">ANNA OSTYANKO </span>
+                                    <a class="anchorjs-link" href="#media-heading">
+                                        <img src="fs_folders/images/details/grey-clock.png">
+                                        <span class="anchorjs-icon">
+                                            <em class="grey" >june 11,2014 9:26pm</em>
+                                        </span>
+                                    </a>
+                                </h4>
+
+                                <p class="black"  >
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                </p>
+
+                                <!--Reply Text-->
+                                <div>
+                                    <img src="fs_folders/images/details/grey-comment-icon.png"> <span class="red font-arial" >REPLY</span>
+                                    <img  class='like' src='http://localhost/fs/new_fs/alphatest/fs_folders/images/genImg/commen-like-unlike.png'  />
+                                    <img class='dislike' src='http://localhost/fs/new_fs/alphatest/fs_folders/images/genImg/comment-dislike-un-disliked.png'  />
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="media border-top padding-top-comment" >
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://dev.fashionsponge.com/fs_folders/images/uploads/members/mem_thumnails/927.jpg" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading" id="media-heading">
+                                    <span class="profile-name black">ANNA OSTYANKO </span>
+                                    <a class="anchorjs-link" href="#media-heading">
+                                        <img src="fs_folders/images/details/grey-clock.png">
+                                        <span class="anchorjs-icon">
+                                            <em class="grey" >june 11,2014 9:26pm</em>
+                                        </span>
+                                    </a>
+                                </h4>
+
+                                <p class="black"  >
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                </p>
+
+                                <!--Reply Text-->
+                                <div>
+                                    <img src="fs_folders/images/details/grey-comment-icon.png"> <span class="red font-arial" >REPLY</span>
+                                    <img  class='like' src='http://localhost/fs/new_fs/alphatest/fs_folders/images/genImg/commen-like-unlike.png'  />
+                                    <img class='dislike' src='http://localhost/fs/new_fs/alphatest/fs_folders/images/genImg/comment-dislike-un-disliked.png'  />
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="media border-top padding-top-comment ">
+                            <!--Comment Area -->
+                            <div class="comment-textarea" >
+                                <div class="center border-bottom margin-bottom text" > Comment </div>
+                                <table border="0"  >
+                                    <tr>
+                                        <td style="width:100px; text-align:center">
+                                            <a href="#">
+                                                <img class="media-object margin-auto" data-src="holder.js/64x64" alt="64x64" src="http://dev.fashionsponge.com/fs_folders/images/uploads/members/mem_thumnails/927.jpg" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                                            </a>
+                                        </td>
+                                        <td style="padding-right: 20px;" >
+                                            <textarea></textarea>
+                                        </td>
+                                    <tr>
+                                        <td style="width:100px">
+                                        </td>
+                                        <td  style="padding-top:10px;padding-bottom:10px; padding-right: 20px; padding-bottom: 15px; ">
+                                            <table  border="0" style="width:200px; float:right;" >
+                                                <tr>
+                                                    <td style="padding-right:20px;">
+                                                        <img
+                                                            id="comment-button-cancel"
+                                                            class="comment-button-cancel"
+                                                            src="fs_folders/images/details/comment-cancel.png"
+                                                            onmousemove=" mousein_change_button ( '#comment-button-cancel' , 'fs_folders/images/details/cancel-mouse-over.png' )"
+                                                            onmouseout="mouseout_change_button (  '#comment-button-cancel'  , 'fs_folders/images/details/comment-cancel.png' )"
+                                                        />
+                                                    </td>
+                                                    <td>
+
+                                                        <img
+                                                            id="comment-button-add"
+                                                            class="comment-button-add"
+                                                            src="fs_folders/images/details/add-comment.png"
+                                                            onmousemove=" mousein_change_button ( '#comment-button-add' , 'fs_folders/images/details/add-comment-mouse.png' )"
+                                                            onmouseout="mouseout_change_button (  '#comment-button-add'  , 'fs_folders/images/details/add-comment.png' )"
+                                                        />
+                                                    </td>
+                                            </table>
+                                        </td>
+                                </table>
+                            </div>
+
+                        </li>
+
+                        <li class="media border-top padding-top-comment ">
+                            <div class="center bold border-black padding-10 radius-10 width-150 pointer" >
+                                <span>Close Comments ^</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Next Message -->
+            <div class="center black bg-public width-auto padding hide ">
+                <h3>Next in Travel </h3>
+            </div>
+
+            <!-- More by -->
+            <div class="bg-white width-auto" >
+                asdasd <br>asdasd <br>asdasd <br>asdasd <br>
+
+
+                <div class="black bold  padding-bottom-comment center">
+                    More Chic Looks
+                </div>
+            </div>
+
+            <!--Modals-->
+            <div class="bg-public  width-100 padding-top-comment" >
+                this is the modals <br>this is the modals <br>this is the modals <br>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+    <!-- Latest compiled and minified JavaScript -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>-->
+</body>
+</html>
